@@ -27,11 +27,14 @@ using ScintillaNET_FindReplaceDialog;
 ```
     public partial class Form1 : Form
     {
+    	// Declare variable for FindReplace dialog
         FindReplace MyFindReplace;
 
         public Form1()
         {
             InitializeComponent();
+            
+            // Create instance of FindReplace with reference to a ScintillaNET control.
             MyFindReplace = new FindReplace(scintilla1);
         }
 	}
