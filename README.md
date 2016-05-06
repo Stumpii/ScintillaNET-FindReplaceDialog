@@ -16,12 +16,12 @@ I have been using ScintillaNet v2.5 for a number of years. The reasons are the c
 
 To use the Find & Replace Dialog:
 1. Add a reference to the binary output of this project (the .dll):
-'''
+```
 using ScintillaNET_FindReplaceDialog;
-'''
+```
 2. Add an instance of FindReplace with reference to a ScintillaNET control:
 
-'''
+```
     public partial class Form1 : Form
     {
         FindReplace MyFindReplace;
@@ -32,4 +32,4 @@ using ScintillaNET_FindReplaceDialog;
             MyFindReplace = new FindReplace(scintilla1);
         }
 	}
-'''
+```
