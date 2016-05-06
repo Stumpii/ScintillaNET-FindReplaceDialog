@@ -6,7 +6,7 @@ A ScintillaNET v3 Find &amp; Replace Dialog + Goto Dialog + Incremental Search
 
 ScintillaNET v2.5 contained Find & Replace, Goto and Incremental Search dialogs which were not included in the v3 branch. The project ports those v2.5 features into a library that will function with v3 ScintillaNET.
 
-[[images/Find-History.png|alt=Find History]]
+[[https://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki/images/Find-Dialog.png|alt=Find Dialog]]
 
 ## Background
 
