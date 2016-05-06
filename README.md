@@ -11,3 +11,25 @@ ScintillaNET v2.5 contained Find & Replace, Goto and Incremental Search dialogs 
 ## Background
 
 I have been using ScintillaNet v2.5 for a number of years. The reasons are the conversion to v3 are well [documented](https://github.com/jacobslusser/ScintillaNET#background), however some features were sorely missed. I started to work these features in a personal clone of ScintillaNET v3, copying chunks of v2.5 code I needed and fixing/converting along the way. All credit goes to [Jacob Slusser](https://github.com/jacobslusser) for writing and maintaining ScintillaNET v2.5 and v3.
+
+## Usage
+
+To use the Find & Replace Dialog:
+1. Add a reference to the binary output of this project (the .dll):
+'''
+using ScintillaNET_FindReplaceDialog;
+'''
+2. Add an instance of FindReplace with reference to a ScintillaNET control:
+
+'''
+    public partial class Form1 : Form
+    {
+        FindReplace MyFindReplace;
+
+        public Form1()
+        {
+            InitializeComponent();
+            MyFindReplace = new FindReplace(scintilla1);
+        }
+	}
+'''
