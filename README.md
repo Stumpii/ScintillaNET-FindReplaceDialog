@@ -10,10 +10,10 @@ Find/Replace Dialog:
 ![Find Dialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki/images/Find-Dialog.png)
 
 Incremental Search:
-![Incremental Search](http://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki/images/Incremental-Search.png)
+![Incremental Search](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki/images/Incremental-Search.png)
 
 Go To Dialog:
-![Go To Dialog](http://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki/images/Go-To-Line-Dialog.png)
+![Go To Dialog](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki/images/Go-To-Line-Dialog.png)
 
 ## Background
 
