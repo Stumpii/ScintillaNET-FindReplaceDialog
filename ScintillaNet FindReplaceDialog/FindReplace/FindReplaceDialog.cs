@@ -314,7 +314,7 @@ namespace ScintillaNET_FindReplaceDialog
                 }
 
                 _scintilla.SetSel(nextRange.cpMin, nextRange.cpMax);
-                    MoveFormAwayFromSelection();
+                MoveFormAwayFromSelection();
             }
         }
 
@@ -704,21 +704,23 @@ namespace ScintillaNET_FindReplaceDialog
                 {
                     //TODO - replace lineheight with ScintillaNET command, when added
                     int SCI_TEXTHEIGHT = 2279;
-                    int lineHeight =  Scintilla.DirectMessage(SCI_TEXTHEIGHT, IntPtr.Zero, IntPtr.Zero).ToInt32();
-                     // Top half of the screen
-                   newLocation = Scintilla.PointToClient(
-                        new Point(Location.X, cursorPoint.Y + lineHeight * 2)
-                        );
+                    int lineHeight = Scintilla.DirectMessage(SCI_TEXTHEIGHT, IntPtr.Zero, IntPtr.Zero).ToInt32();
+                    // int lineHeight = Scintilla.Lines[Scintilla.LineFromPosition(pos)].Height;
+                    
+                    // Top half of the screen
+                    newLocation = Scintilla.PointToClient(
+                        new Point(Location.X, cursorPoint.Y + lineHeight * 2));
                 }
                 else
                 {
                     //TODO - replace lineheight with ScintillaNET command, when added
                     int SCI_TEXTHEIGHT = 2279;
                     int lineHeight = Scintilla.DirectMessage(SCI_TEXTHEIGHT, IntPtr.Zero, IntPtr.Zero).ToInt32();
+                    // int lineHeight = Scintilla.Lines[Scintilla.LineFromPosition(pos)].Height;
+                    
                     // Bottom half of the screen
                     newLocation = Scintilla.PointToClient(
-                        new Point(Location.X, cursorPoint.Y - Height - (lineHeight * 2))
-                        );
+                        new Point(Location.X, cursorPoint.Y - Height - (lineHeight * 2)));
                 }
                 newLocation = Scintilla.PointToScreen(newLocation);
                 Location = newLocation;
@@ -943,7 +945,7 @@ namespace ScintillaNET_FindReplaceDialog
                 }
                 else
                 {
-                    _searchRange = new  CharacterRange();
+                    _searchRange = new CharacterRange();
                     if (searchUp)
                         foundRange = FindReplace.FindPrevious(rr, chkWrapR.Checked);
                     else

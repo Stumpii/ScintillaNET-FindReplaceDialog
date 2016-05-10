@@ -49,7 +49,6 @@
             this.scintilla1.UseTabs = false;
             this.scintilla1.WrapMode = ScintillaNET.WrapMode.Word;
             this.scintilla1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.scintilla1_KeyDown);
-            this.scintilla1.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.scintilla1_PreviewKeyDown);
             // 
             // GotoButton
             // 
