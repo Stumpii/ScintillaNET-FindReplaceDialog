@@ -52,8 +52,11 @@ namespace ScintillaNET_FindReplaceDialog
 
         #endregion Constructors
 
-        #region Properties
+        public event FindAllResultsEventHandler FindAllResults;
 
+        public delegate void FindAllResultsEventHandler(object sender, List<CharacterRange> FindAllResults);
+
+        #region Properties
 
         public Scintilla Scintilla
         {
@@ -166,7 +169,7 @@ namespace ScintillaNET_FindReplaceDialog
 
             foreach (var r in Ranges)
             {
-            _scintilla.IndicatorFillRange(r.cpMin, r.cpMax - r.cpMin);
+                _scintilla.IndicatorFillRange(r.cpMin, r.cpMax - r.cpMin);
             }
         }
 
@@ -192,21 +195,6 @@ namespace ScintillaNET_FindReplaceDialog
             if (pos == -1)
                 return new CharacterRange();
             return new CharacterRange(_scintilla.TargetStart, _scintilla.TargetEnd);
-
-            //TextToFind ttf = new TextToFind();
-            //ttf.chrg.cpMin = startPos;
-            //ttf.chrg.cpMax = endPos;
-
-            //var bytes = Helpers.GetBytes(searchString ?? string.Empty, _scintilla.Encoding, zeroTerminated: false);
-            //fixed (byte* pb = bytes)
-            //{
-            //	ttf.lpstrText = (IntPtr)pb;
-            //	int pos = _scintilla.FindText((int)flags, ref ttf);
-            //	if (pos == -1)
-            //		return null;
-
-            //	return new Range(pos, pos + searchString.Length);
-            //}
         }
 
         public CharacterRange Find(CharacterRange r, Regex findExpression)
@@ -256,7 +244,7 @@ namespace ScintillaNET_FindReplaceDialog
                 //int start = r.cpMin + _scintilla.Encoding.GetByteCount(text.Substring(0, m.Index));
                 //int end = _scintilla.Encoding.GetByteCount(text.Substring(m.Index, m.Length));
                 int start = r.cpMin + text.Substring(0, m.Index).Length;
-                int end =text.Substring(m.Index, m.Length).Length;
+                int end = text.Substring(m.Index, m.Length).Length;
 
                 return new CharacterRange(start, start + end);
             }
@@ -329,7 +317,7 @@ namespace ScintillaNET_FindReplaceDialog
             return FindAll(new CharacterRange(startPos, endPos), findExpression, Mark, Highlight);
         }
 
-        public List<CharacterRange> FindAll(int startPos, int endPos, string searchString, SearchFlags flags, bool Mark, bool Highlight )
+        public List<CharacterRange> FindAll(int startPos, int endPos, string searchString, SearchFlags flags, bool Mark, bool Highlight)
         {
             List<CharacterRange> Results = new List<CharacterRange>();
 
@@ -365,6 +353,10 @@ namespace ScintillaNET_FindReplaceDialog
                 }
             }
             //return findCount;
+
+            if (FindAllResults != null)
+                FindAllResults(this, Results);
+
             return Results;
         }
 
@@ -405,6 +397,9 @@ namespace ScintillaNET_FindReplaceDialog
                 }
             }
             //return findCount;
+            if (FindAllResults != null)
+                FindAllResults(this, Results);
+
             return Results;
         }
 
