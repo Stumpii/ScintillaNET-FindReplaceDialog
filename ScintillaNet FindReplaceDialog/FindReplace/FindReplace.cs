@@ -27,27 +27,14 @@ namespace ScintillaNET_FindReplaceDialog
 
         #region Constructors
 
-        //	: base(scintilla)
         public FindReplace(Scintilla scintilla)
         {
-            _scintilla = scintilla;
-            _marker = scintilla.Markers[10];
-            _marker.Symbol = MarkerSymbol.Circle;
-            _marker.SetForeColor(Color.Black);
-            _marker.SetBackColor(Color.Blue);
-            _indicator = scintilla.Indicators[16];
-            _indicator.ForeColor = Color.Purple;
-            _indicator.Style = IndicatorStyle.RoundBox;
+            Scintilla = scintilla;
+        }
 
-            _window = CreateWindowInstance();
-            _window.Scintilla = scintilla;
-            _window.FindReplace = this;
+        public FindReplace()
+        {
 
-            _incrementalSearcher = CreateIncrementalSearcherInstance();
-            _incrementalSearcher.Scintilla = scintilla;
-            _incrementalSearcher.FindReplace = this;
-            _incrementalSearcher.Visible = false;
-            scintilla.Controls.Add(_incrementalSearcher);
         }
 
         #endregion Constructors
@@ -60,8 +47,33 @@ namespace ScintillaNET_FindReplaceDialog
 
         public Scintilla Scintilla
         {
-            get { return _scintilla; }
+            get
+            {
+                return _scintilla;
+            }
+            set
+            {
+                _scintilla = value;
+                _marker = _scintilla.Markers[10];
+                _marker.Symbol = MarkerSymbol.Circle;
+                _marker.SetForeColor(Color.Black);
+                _marker.SetBackColor(Color.Blue);
+                _indicator = _scintilla.Indicators[16];
+                _indicator.ForeColor = Color.Purple;
+                _indicator.Style = IndicatorStyle.RoundBox;
+
+                _window = CreateWindowInstance();
+                _window.Scintilla = _scintilla;
+                _window.FindReplace = this;
+
+                _incrementalSearcher = CreateIncrementalSearcherInstance();
+                _incrementalSearcher.Scintilla = _scintilla;
+                _incrementalSearcher.FindReplace = this;
+                _incrementalSearcher.Visible = false;
+                _scintilla.Controls.Add(_incrementalSearcher);
+            }
         }
+
 
         //[Editor(typeof(ScintillaNET.Design.FlagEnumUIEditor), typeof(System.Drawing.Design.UITypeEditor))]
         //public SearchFlags Flags
