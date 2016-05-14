@@ -29,10 +29,10 @@ namespace Demo
             findAllResultsPanel1.Scintilla = scintilla1;
         }
 
-        private void MyFindReplace_FindAllResults(object sender, List<ScintillaNET_FindReplaceDialog.CharacterRange> FindAllResults)
+        private void MyFindReplace_FindAllResults(object sender, FindResultsEventArgs FindAllResults)
         {
             // Pass on find results
-            findAllResultsPanel1.ShowFindAllResults(FindAllResults);
+            findAllResultsPanel1.UpdateFindAllResults(FindAllResults.FindReplace, FindAllResults.FindAllResults);
         }
 
         private void GotoButton_Click(object sender, EventArgs e)

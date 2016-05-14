@@ -53,7 +53,12 @@
 
         #region Methods
 
-        public void ShowFindAllResults(List<ScintillaNET_FindReplaceDialog.CharacterRange> FindAllResults)
+        /// <summary>
+        /// Updates the find all results panel
+        /// </summary>
+        /// <param name="FindReplace">The FindReplace instance used to generate the find results.</param>
+        /// <param name="FindAllResults"></param>
+        public void UpdateFindAllResults(FindReplace FindReplace, List<ScintillaNET_FindReplaceDialog.CharacterRange> FindAllResults)
         {
             if (Scintilla == null)
                 return;
@@ -62,14 +67,31 @@
 
             FindResultsScintilla.ClearAll();
 
+            Indicator _indicator;
+            _indicator = FindResultsScintilla.Indicators[16];
+            _indicator.ForeColor = Color.Purple;
+            _indicator.Style = IndicatorStyle.RoundBox;
+
+            FindResultsScintilla.IndicatorCurrent = _indicator.Index;
+
             foreach (var item in _findAllResults)
             {
                 int startLine = Scintilla.LineFromPosition(item.cpMin);
                 int endLine = Scintilla.LineFromPosition(item.cpMax);
 
                 if (startLine == endLine)
+                {
                     FindResultsScintilla.AppendText(string.Format("Line {0}: {1}",
                         startLine + 1, Scintilla.Lines[startLine].Text));
+
+                    int LinePos = Scintilla.Lines[startLine].Position;
+                    int startPosInLine = item.cpMin - LinePos;
+
+                    int lastLineStartPos = FindResultsScintilla.Lines[FindResultsScintilla.Lines.Count].Position;
+
+                    //FindResultsScintilla.IndicatorFillRange(lastLineStartPos + startPosInLine, item.cpMax - item.cpMin);
+
+                }
             }
         }
 
