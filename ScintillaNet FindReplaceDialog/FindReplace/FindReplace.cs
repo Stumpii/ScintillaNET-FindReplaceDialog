@@ -39,11 +39,18 @@ namespace ScintillaNET_FindReplaceDialog
 
         #region Constructors
 
+        /// <summary>
+        /// Creates an instance of the FindReplace class.
+        /// </summary>
+        /// <param name="scintilla">The Scintilla class to which the FindReplace class is attached.</param>
         public FindReplace(Scintilla scintilla)
         {
             Scintilla = scintilla;
         }
 
+        /// <summary>
+        /// Creates an instance of the FindReplace class.
+        /// </summary>
         public FindReplace()
         {
 

@@ -132,6 +132,7 @@
             ScintillaNET_FindReplaceDialog.CharacterRange CharRange = _findAllResults[selectedLine];
             Scintilla.SetSelection(CharRange.cpMin, CharRange.cpMax);
             Scintilla.ScrollCaret();
+            Scintilla.Focus();
         }
 
         #endregion Methods
