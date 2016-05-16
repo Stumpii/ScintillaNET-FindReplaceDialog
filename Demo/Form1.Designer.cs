@@ -31,9 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.scintilla1 = new ScintillaNET.Scintilla();
             this.GotoButton = new System.Windows.Forms.Button();
-            this.incrementalSearcher1 = new ScintillaNET_FindReplaceDialog.IncrementalSearcher();
-            this.findAllResultsPanel1 = new ScintillaNET_FindReplaceDialog.FindAllResults.FindAllResultsPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.findAllResultsPanel1 = new ScintillaNET_FindReplaceDialog.FindAllResults.FindAllResultsPanel();
+            this.incrementalSearcher1 = new ScintillaNET_FindReplaceDialog.IncrementalSearcher();
+            this.findReplace1 = new ScintillaNET_FindReplaceDialog.FindReplace();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -49,7 +50,6 @@
             this.scintilla1.Size = new System.Drawing.Size(715, 250);
             this.scintilla1.TabIndex = 0;
             this.scintilla1.Text = resources.GetString("scintilla1.Text");
-            this.scintilla1.UseTabs = false;
             this.scintilla1.WrapMode = ScintillaNET.WrapMode.Word;
             this.scintilla1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.scintilla1_KeyDown);
             // 
@@ -62,30 +62,6 @@
             this.GotoButton.Text = "Goto";
             this.GotoButton.UseVisualStyleBackColor = true;
             this.GotoButton.Click += new System.EventHandler(this.GotoButton_Click);
-            // 
-            // incrementalSearcher1
-            // 
-            this.incrementalSearcher1.AutoPosition = false;
-            this.incrementalSearcher1.AutoSize = true;
-            this.incrementalSearcher1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.incrementalSearcher1.BackColor = System.Drawing.Color.Transparent;
-            this.incrementalSearcher1.FindReplace = null;
-            this.incrementalSearcher1.Location = new System.Drawing.Point(9, 9);
-            this.incrementalSearcher1.Margin = new System.Windows.Forms.Padding(0);
-            this.incrementalSearcher1.Name = "incrementalSearcher1";
-            this.incrementalSearcher1.Scintilla = null;
-            this.incrementalSearcher1.Size = new System.Drawing.Size(259, 22);
-            this.incrementalSearcher1.TabIndex = 1;
-            this.incrementalSearcher1.ToolItem = true;
-            // 
-            // findAllResultsPanel1
-            // 
-            this.findAllResultsPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.findAllResultsPanel1.Location = new System.Drawing.Point(0, 0);
-            this.findAllResultsPanel1.Name = "findAllResultsPanel1";
-            this.findAllResultsPanel1.Scintilla = null;
-            this.findAllResultsPanel1.Size = new System.Drawing.Size(715, 158);
-            this.findAllResultsPanel1.TabIndex = 3;
             // 
             // splitContainer1
             // 
@@ -106,6 +82,37 @@
             this.splitContainer1.Size = new System.Drawing.Size(715, 412);
             this.splitContainer1.SplitterDistance = 250;
             this.splitContainer1.TabIndex = 4;
+            // 
+            // findAllResultsPanel1
+            // 
+            this.findAllResultsPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.findAllResultsPanel1.Location = new System.Drawing.Point(0, 0);
+            this.findAllResultsPanel1.Name = "findAllResultsPanel1";
+            this.findAllResultsPanel1.Scintilla = null;
+            this.findAllResultsPanel1.Size = new System.Drawing.Size(715, 158);
+            this.findAllResultsPanel1.TabIndex = 3;
+            // 
+            // incrementalSearcher1
+            // 
+            this.incrementalSearcher1.AutoPosition = false;
+            this.incrementalSearcher1.AutoSize = true;
+            this.incrementalSearcher1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.incrementalSearcher1.BackColor = System.Drawing.Color.Transparent;
+            this.incrementalSearcher1.FindReplace = null;
+            this.incrementalSearcher1.Location = new System.Drawing.Point(9, 9);
+            this.incrementalSearcher1.Margin = new System.Windows.Forms.Padding(0);
+            this.incrementalSearcher1.Name = "incrementalSearcher1";
+            this.incrementalSearcher1.Scintilla = null;
+            this.incrementalSearcher1.Size = new System.Drawing.Size(259, 22);
+            this.incrementalSearcher1.TabIndex = 1;
+            this.incrementalSearcher1.ToolItem = true;
+            // 
+            // findReplace1
+            // 
+            this.findReplace1._lastReplaceHighlight = false;
+            this.findReplace1._lastReplaceLastLine = 0;
+            this.findReplace1._lastReplaceMark = false;
+            this.findReplace1.Scintilla = this.scintilla1;
             // 
             // Form1
             // 
@@ -133,6 +140,7 @@
         private System.Windows.Forms.Button GotoButton;
         private ScintillaNET_FindReplaceDialog.FindAllResults.FindAllResultsPanel findAllResultsPanel1;
         private System.Windows.Forms.SplitContainer splitContainer1;
+        private ScintillaNET_FindReplaceDialog.FindReplace findReplace1;
     }
 }
 

@@ -20,7 +20,7 @@ namespace ScintillaNET_FindReplaceDialog
     }
 
     [TypeConverterAttribute(typeof(System.ComponentModel.ExpandableObjectConverter))]
-    public class FindReplace
+    public class FindReplace : Component
     {
         #region Fields
 
@@ -161,16 +161,19 @@ namespace ScintillaNET_FindReplaceDialog
             }
         }
 
+        [Browsable(false)]
         public bool _lastReplaceHighlight
         {
             get; set;
         }
 
+        [Browsable(false)]
         public int _lastReplaceLastLine
         {
             get; set;
         }
 
+        [Browsable(false)]
         public bool _lastReplaceMark
         {
             get; set;
