@@ -78,8 +78,11 @@ namespace ScintillaNET_FindReplaceDialog
                 _marker.SetForeColor(Color.Black);
                 _marker.SetBackColor(Color.Blue);
                 _indicator = _scintilla.Indicators[16];
-                _indicator.ForeColor = Color.Purple;
+                _indicator.ForeColor = Color.Red;
+                //_indicator.ForeColor = Color.LawnGreen; //Smart highlight
+                _indicator.Alpha = 100;
                 _indicator.Style = IndicatorStyle.RoundBox;
+                _indicator.Under = true;
 
                 _window = CreateWindowInstance();
                 _window.Scintilla = _scintilla;

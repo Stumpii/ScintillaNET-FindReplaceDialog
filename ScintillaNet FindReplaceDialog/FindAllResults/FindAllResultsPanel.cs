@@ -67,13 +67,15 @@
 
             FindResultsScintilla.ClearAll();
 
-            Indicator _indicator;
-            _indicator = FindResultsScintilla.Indicators[16];
-            _indicator.ForeColor = Color.Purple;
+            Indicator _indicator = FindResultsScintilla.Indicators[16];
+            _indicator.ForeColor = Color.Red;
+            _indicator.Alpha = 100;
             _indicator.Style = IndicatorStyle.RoundBox;
+            _indicator.Under = true;
 
             FindResultsScintilla.IndicatorCurrent = _indicator.Index;
 
+            //Write lines
             foreach (var item in _findAllResults)
             {
                 int startLine = Scintilla.LineFromPosition(item.cpMin);
@@ -81,16 +83,32 @@
 
                 if (startLine == endLine)
                 {
-                    FindResultsScintilla.AppendText(string.Format("Line {0}: {1}",
-                        startLine + 1, Scintilla.Lines[startLine].Text));
+                    string resultsLinePrefix = string.Format("Line {0}: ", startLine + 1);
+
+                    FindResultsScintilla.AppendText(string.Format("{0}{1}",
+                        resultsLinePrefix, Scintilla.Lines[startLine].Text));
+                }
+            }
+
+            //Highlight
+            int resultLineIndex = 0;
+            foreach (var item in _findAllResults)
+            {
+                int startLine = Scintilla.LineFromPosition(item.cpMin);
+                int endLine = Scintilla.LineFromPosition(item.cpMax);
+
+                if (startLine == endLine)
+                {
+                    string resultsLinePrefix = string.Format("Line {0}: ", startLine + 1);
 
                     int LinePos = Scintilla.Lines[startLine].Position;
                     int startPosInLine = item.cpMin - LinePos;
 
-                    int lastLineStartPos = FindResultsScintilla.Lines[FindResultsScintilla.Lines.Count].Position;
+                    int lastLineStartPos = FindResultsScintilla.Lines[resultLineIndex].Position;
 
-                    //FindResultsScintilla.IndicatorFillRange(lastLineStartPos + startPosInLine, item.cpMax - item.cpMin);
+                    FindResultsScintilla.IndicatorFillRange(lastLineStartPos + resultsLinePrefix.Length + startPosInLine, item.cpMax - item.cpMin);
 
+                    resultLineIndex++;
                 }
             }
         }

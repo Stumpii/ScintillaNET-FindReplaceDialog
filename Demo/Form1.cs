@@ -20,6 +20,7 @@ namespace Demo
         public Form1()
         {
             InitializeComponent();
+            scintilla1.Styles[Style.Default].Size = 10;
 
             MyFindReplace = new FindReplace(scintilla1);
             MyFindReplace.FindAllResults += MyFindReplace_FindAllResults;
