@@ -24,10 +24,16 @@ namespace Demo
 
             MyFindReplace = new FindReplace(scintilla1);
             MyFindReplace.FindAllResults += MyFindReplace_FindAllResults;
+            MyFindReplace.KeyPressed += MyFindReplace_KeyPressed; ;
 
             incrementalSearcher1.FindReplace = MyFindReplace;
 
             findAllResultsPanel1.Scintilla = scintilla1;
+        }
+
+        private void MyFindReplace_KeyPressed(object sender, KeyEventArgs e)
+        {
+            scintilla1_KeyDown(sender, e);
         }
 
         private void MyFindReplace_FindAllResults(object sender, FindResultsEventArgs FindAllResults)
@@ -49,6 +55,16 @@ namespace Demo
                 MyFindReplace.ShowFind();
                 e.SuppressKeyPress = true;
             }
+            else if (e.Shift && e.KeyCode == Keys.F3)
+            {
+                MyFindReplace.Window.FindPrevious();
+                e.SuppressKeyPress = true;
+            }
+            else if (e.KeyCode == Keys.F3)
+            {
+                MyFindReplace.Window.FindNext();
+                e.SuppressKeyPress = true;
+            }
             else if (e.Control && e.KeyCode == Keys.H)
             {
                 MyFindReplace.ShowReplace();
@@ -67,6 +83,5 @@ namespace Demo
             }
 
         }
-
     }
 }

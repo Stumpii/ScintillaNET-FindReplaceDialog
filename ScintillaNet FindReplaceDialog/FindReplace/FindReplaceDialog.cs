@@ -23,6 +23,10 @@ namespace ScintillaNET_FindReplaceDialog
 
         #endregion Fields
 
+        public event KeyPressedHandler KeyPressed;
+
+        public delegate void KeyPressedHandler(object sender, KeyEventArgs e);
+
         #region Constructors
 
         public FindReplaceDialog()
@@ -808,8 +812,11 @@ namespace ScintillaNET_FindReplaceDialog
 
             //if (findNextBinding.Contains(kb) || findPrevBinding.Contains(kb) || showFindBinding.Contains(kb) || showReplaceBinding.Contains(kb))
             //{
-            //Scintilla.FireKeyDown(e);
+            //Scintilla. FireKeyDown(e);
             //}
+
+            if (KeyPressed != null)
+                KeyPressed(this, e);
 
             if (e.KeyCode == Keys.Escape)
                 Hide();

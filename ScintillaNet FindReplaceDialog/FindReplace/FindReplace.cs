@@ -6,7 +6,7 @@ namespace ScintillaNET_FindReplaceDialog
     using System.Text.RegularExpressions;
     using ScintillaNET;
     using System.Drawing;
-
+    using System.Windows.Forms;
     public class FindResultsEventArgs : EventArgs
     {
         public FindResultsEventArgs(FindReplace FindReplace, List<CharacterRange> FindAllResults)
@@ -87,6 +87,7 @@ namespace ScintillaNET_FindReplaceDialog
                 _window = CreateWindowInstance();
                 _window.Scintilla = _scintilla;
                 _window.FindReplace = this;
+                _window.KeyPressed += _window_KeyPressed;
 
                 _incrementalSearcher = CreateIncrementalSearcherInstance();
                 _incrementalSearcher.Scintilla = _scintilla;
@@ -94,6 +95,24 @@ namespace ScintillaNET_FindReplaceDialog
                 _incrementalSearcher.Visible = false;
                 _scintilla.Controls.Add(_incrementalSearcher);
             }
+        }
+
+        /// <summary>
+        /// Triggered when a key is pressed on the Find and Replace Dialog.
+        /// </summary>
+        public event KeyPressedHandler KeyPressed;
+
+        /// <summary>
+        /// Handler for the key press on a Find and Replace Dialog.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The key info of the key(s) pressed.</param>
+        public delegate void KeyPressedHandler(object sender, KeyEventArgs e);
+
+        private void _window_KeyPressed(object sender, System.Windows.Forms.KeyEventArgs e)
+        {
+            if (KeyPressed != null)
+                KeyPressed(this, e);
         }
 
 

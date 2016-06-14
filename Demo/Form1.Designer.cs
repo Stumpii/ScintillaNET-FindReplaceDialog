@@ -50,6 +50,7 @@
             this.scintilla1.Size = new System.Drawing.Size(715, 250);
             this.scintilla1.TabIndex = 0;
             this.scintilla1.Text = resources.GetString("scintilla1.Text");
+            this.scintilla1.UseTabs = false;
             this.scintilla1.WrapMode = ScintillaNET.WrapMode.Word;
             this.scintilla1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.scintilla1_KeyDown);
             // 
