@@ -58,7 +58,9 @@
       <DependentUpon>FindAllResultsPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="FindReplace\FindOption.cs" />
-    <Compile Include="FindReplace\FindReplace.cs" />
+    <Compile Include="FindReplace\FindReplace.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="FindReplace\FindReplaceDialog.cs">
       <SubType>Form</SubType>
     </Compile>
