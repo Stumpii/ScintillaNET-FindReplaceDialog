@@ -479,7 +479,7 @@ namespace ScintillaNET_FindReplaceDialog
                 chkRightToLeftF.Checked = chkRightToLeftR.Checked;
                 chkSinglelineF.Checked = chkSinglelineR.Checked;
 
-                AcceptButton = btnFindNext;
+                AcceptButton = btnFindNextF;
             }
             else
             {
