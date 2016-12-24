@@ -33,7 +33,7 @@ namespace Demo
 
         private void MyFindReplace_KeyPressed(object sender, KeyEventArgs e)
         {
-            scintilla1_KeyDown(sender, e);
+            genericScintilla_KeyDown(sender, e);
         }
 
         private void MyFindReplace_FindAllResults(object sender, FindResultsEventArgs FindAllResults)
@@ -44,11 +44,17 @@ namespace Demo
 
         private void GotoButton_Click(object sender, EventArgs e)
         {
-            GoTo MyGoTo = new GoTo(scintilla1);
+            // Use the FindReplace Scintilla as this will change based on focus
+            GoTo MyGoTo = new GoTo(MyFindReplace.Scintilla);
             MyGoTo.ShowGoToDialog();
         }
 
-        private void scintilla1_KeyDown(object sender, KeyEventArgs e)
+        /// <summary>
+        /// Key down event for each Scintilla. Tie each Scintilla to this event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void genericScintilla_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Control && e.KeyCode == Keys.F)
             {
@@ -77,11 +83,22 @@ namespace Demo
             }
             else if (e.Control && e.KeyCode == Keys.G)
             {
-                GoTo MyGoTo = new GoTo(scintilla1);
+                GoTo MyGoTo = new GoTo((Scintilla)sender);
                 MyGoTo.ShowGoToDialog();
                 e.SuppressKeyPress = true;
             }
 
+        }
+
+        /// <summary>
+        /// Enter event tied to each Scintilla that will share a FindReplace dialog.
+        /// Tie each Scintilla to this event.
+        /// </summary>
+        /// <param name="sender">The Scintilla receiving focus</param>
+        /// <param name="e"></param>
+        private void genericScintilla1_Enter(object sender, EventArgs e)
+        {
+            MyFindReplace.Scintilla = (Scintilla)sender;
         }
     }
 }

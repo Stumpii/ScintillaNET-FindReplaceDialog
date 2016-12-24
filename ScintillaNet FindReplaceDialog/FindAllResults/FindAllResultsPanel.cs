@@ -60,8 +60,10 @@
         /// <param name="FindAllResults"></param>
         public void UpdateFindAllResults(FindReplace FindReplace, List<ScintillaNET_FindReplaceDialog.CharacterRange> FindAllResults)
         {
-            if (Scintilla == null)
+            if (FindReplace.Scintilla == null)
                 return;
+            else
+                Scintilla = FindReplace.Scintilla;
 
             _findAllResults = new List<ScintillaNET_FindReplaceDialog.CharacterRange>(FindAllResults);
 

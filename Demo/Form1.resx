@@ -177,7 +177,18 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</value>
   </data>
-  <metadata name="findReplace1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="scintilla2.Text" xml:space="preserve">
+    <value>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus efficitur rhoncus. Curabitur varius sodales orci, sed mollis est fermentum nec. Donec a ultrices velit. Vivamus dapibus sodales purus euismod ultricies. Nulla facilisi. Praesent sodales elit ut nisl vulputate placerat. Cras nibh sapien, cursus in aliquet eu, varius non nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque quis porta augue. Pellentesque id nisl turpis. Nulla lectus lectus, gravida eget hendrerit nec, ultrices vel quam. Pellentesque viverra dignissim arcu.
+
+Etiam id maximus nisl. Donec vel urna consequat quam tristique vehicula. Integer tincidunt porttitor lorem. Nam congue purus in sem auctor tristique. Fusce commodo condimentum dolor non luctus. Duis id porttitor nisi. Quisque vitae egestas dolor, sed dapibus velit.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus efficitur rhoncus. Curabitur varius sodales orci, sed mollis est fermentum nec. Donec a ultrices velit. Vivamus dapibus sodales purus euismod ultricies. Nulla facilisi. Praesent sodales elit ut nisl vulputate placerat. Cras nibh sapien, cursus in aliquet eu, varius non nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque quis porta augue. Pellentesque id nisl turpis. Nulla lectus lectus, gravida eget hendrerit nec, ultrices vel quam. Pellentesque viverra dignissim arcu.
+
+Etiam id maximus nisl. Donec vel urna consequat quam tristique vehicula. Integer tincidunt porttitor lorem. Nam congue purus in sem auctor tristique. Fusce commodo condimentum dolor non luctus. Duis id porttitor nisi. Quisque vitae egestas dolor, sed dapibus velit.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus efficitur rhoncus. Curabitur varius sodales orci, sed mollis est fermentum nec. Donec a ultrices velit. Vivamus dapibus sodales purus euismod ultricies. Nulla facilisi. Praesent sodales elit ut nisl vulputate placerat. Cras nibh sapien, cursus in aliquet eu, varius non nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque quis porta augue. Pellentesque id nisl turpis. Nulla lectus lectus, gravida eget hendrerit nec, ultrices vel quam. Pellentesque viverra dignissim arcu.
+
+Etiam id maximus nisl. Donec vel urna consequat quam tristique vehicula. Integer tincidunt porttitor lorem. Nam congue purus in sem auctor tristique. Fusce commodo condimentum dolor non luctus. Duis id porttitor nisi. Quisque vitae egestas dolor, sed dapibus velit.</value>
+  </data>
 </root>

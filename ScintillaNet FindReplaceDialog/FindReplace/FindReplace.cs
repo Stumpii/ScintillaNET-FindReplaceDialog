@@ -45,15 +45,15 @@ namespace ScintillaNET_FindReplaceDialog
         /// <param name="scintilla">The Scintilla class to which the FindReplace class is attached.</param>
         public FindReplace(Scintilla scintilla)
         {
+            _window = CreateWindowInstance();
             Scintilla = scintilla;
         }
 
         /// <summary>
         /// Creates an instance of the FindReplace class.
         /// </summary>
-        public FindReplace()
+        public FindReplace() : this(null)
         {
-
         }
 
         #endregion Constructors
@@ -84,7 +84,6 @@ namespace ScintillaNET_FindReplaceDialog
                 _indicator.Style = IndicatorStyle.RoundBox;
                 _indicator.Under = true;
 
-                _window = CreateWindowInstance();
                 _window.Scintilla = _scintilla;
                 _window.FindReplace = this;
                 _window.KeyPressed += _window_KeyPressed;
