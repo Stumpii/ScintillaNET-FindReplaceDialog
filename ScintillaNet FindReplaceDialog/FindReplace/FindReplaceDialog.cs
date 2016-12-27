@@ -312,9 +312,9 @@ namespace ScintillaNET_FindReplaceDialog
                 if (nextRange.cpMin > _scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionR.Checked)
-                        lblStatus.Text = "Search match wrapped to the begining of the selection";
+                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
                     else
-                        lblStatus.Text = "Search match wrapped to the begining of the document";
+                        lblStatus.Text = "Search match wrapped to the beginning of the document";
                 }
 
                 _scintilla.SetSel(nextRange.cpMin, nextRange.cpMax);
@@ -545,9 +545,9 @@ namespace ScintillaNET_FindReplaceDialog
                 if (foundRange.cpMin < Scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionF.Checked)
-                        lblStatus.Text = "Search match wrapped to the begining of the selection";
+                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
                     else
-                        lblStatus.Text = "Search match wrapped to the begining of the document";
+                        lblStatus.Text = "Search match wrapped to the beginning of the document";
                 }
 
                 Scintilla.SetSel(foundRange.cpMin, foundRange.cpMax);
@@ -763,9 +763,9 @@ namespace ScintillaNET_FindReplaceDialog
                 if (nextRange.cpMin < Scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionR.Checked)
-                        lblStatus.Text = "Search match wrapped to the begining of the selection";
+                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
                     else
-                        lblStatus.Text = "Search match wrapped to the begining of the document";
+                        lblStatus.Text = "Search match wrapped to the beginning of the document";
                 }
 
                 Scintilla.SetSel(nextRange.cpMin, nextRange.cpMax);

@@ -7,17 +7,6 @@ namespace ScintillaNET_FindReplaceDialog
     using ScintillaNET;
     using System.Drawing;
     using System.Windows.Forms;
-    public class FindResultsEventArgs : EventArgs
-    {
-        public FindResultsEventArgs(FindReplace FindReplace, List<CharacterRange> FindAllResults)
-        {
-            this.FindReplace = FindReplace;
-            this.FindAllResults = FindAllResults;
-        }
-
-        public FindReplace FindReplace { get; set; }
-        public List<CharacterRange> FindAllResults { get; set; }
-    }
 
     [TypeConverterAttribute(typeof(System.ComponentModel.ExpandableObjectConverter))]
     public class FindReplace : Component
@@ -944,4 +933,18 @@ namespace ScintillaNET_FindReplaceDialog
 
         #endregion Methods
     }
+
+    public class FindResultsEventArgs : EventArgs
+    {
+        public FindResultsEventArgs(FindReplace FindReplace, List<CharacterRange> FindAllResults)
+        {
+            this.FindReplace = FindReplace;
+            this.FindAllResults = FindAllResults;
+        }
+
+        public FindReplace FindReplace { get; set; }
+        public List<CharacterRange> FindAllResults { get; set; }
+    }
+
+
 }
