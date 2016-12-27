@@ -1,0 +1,5 @@
+*.suo
+*.pdb
+*.user
+*.sln.docstates
+obj/

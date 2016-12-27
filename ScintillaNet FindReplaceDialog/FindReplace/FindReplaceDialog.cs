@@ -479,7 +479,7 @@ namespace ScintillaNET_FindReplaceDialog
                 chkRightToLeftF.Checked = chkRightToLeftR.Checked;
                 chkSinglelineF.Checked = chkSinglelineR.Checked;
 
-                AcceptButton = btnFindNext;
+                AcceptButton = btnFindNextF;
             }
             else
             {
@@ -516,6 +516,8 @@ namespace ScintillaNET_FindReplaceDialog
 
         public void FindNext()
         {
+            SyncSearchText();
+
             if (txtFindF.Text == string.Empty)
                 return;
 
@@ -555,6 +557,8 @@ namespace ScintillaNET_FindReplaceDialog
 
         public void FindPrevious()
         {
+            SyncSearchText();
+
             if (txtFindF.Text == string.Empty)
                 return;
 
@@ -822,6 +826,14 @@ namespace ScintillaNET_FindReplaceDialog
                 Hide();
 
             base.OnKeyDown(e);
+        }
+
+        private void SyncSearchText()
+        {
+            if (tabAll.SelectedTab == tpgFind)
+                txtFindR.Text = txtFindF.Text;
+            else
+                txtFindF.Text = txtFindR.Text;
         }
 
         private void AddFindMru()

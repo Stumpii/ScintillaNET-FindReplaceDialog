@@ -42,8 +42,8 @@ namespace ScintillaNET_FindReplaceDialog
             this.chkMarkLine = new System.Windows.Forms.CheckBox();
             this.chkSearchSelectionF = new System.Windows.Forms.CheckBox();
             this.chkWrapF = new System.Windows.Forms.CheckBox();
-            this.btnFindPrevious = new System.Windows.Forms.Button();
-            this.btnFindNext = new System.Windows.Forms.Button();
+            this.btnFindPreviousF = new System.Windows.Forms.Button();
+            this.btnFindNextF = new System.Windows.Forms.Button();
             this.grpOptionsF = new System.Windows.Forms.GroupBox();
             this.pnlStandardOptionsF = new System.Windows.Forms.Panel();
             this.chkWordStartF = new System.Windows.Forms.CheckBox();
@@ -178,6 +178,8 @@ namespace ScintillaNET_FindReplaceDialog
             this.toolStripMenuItem51 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem50 = new System.Windows.Forms.ToolStripMenuItem();
             this.nameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnFindPreviousR = new System.Windows.Forms.Button();
+            this.btnFindNextR = new System.Windows.Forms.Button();
             this.tabAll.SuspendLayout();
             this.tpgFind.SuspendLayout();
             this.grpFindAll.SuspendLayout();
@@ -218,8 +220,8 @@ namespace ScintillaNET_FindReplaceDialog
             this.tpgFind.Controls.Add(this.grpFindAll);
             this.tpgFind.Controls.Add(this.chkSearchSelectionF);
             this.tpgFind.Controls.Add(this.chkWrapF);
-            this.tpgFind.Controls.Add(this.btnFindPrevious);
-            this.tpgFind.Controls.Add(this.btnFindNext);
+            this.tpgFind.Controls.Add(this.btnFindPreviousF);
+            this.tpgFind.Controls.Add(this.btnFindNextF);
             this.tpgFind.Controls.Add(this.grpOptionsF);
             this.tpgFind.Controls.Add(this.lblSearchTypeF);
             this.tpgFind.Controls.Add(this.rdoRegexF);
@@ -354,27 +356,27 @@ namespace ScintillaNET_FindReplaceDialog
             this.chkWrapF.Text = "&Wrap";
             this.chkWrapF.UseVisualStyleBackColor = true;
             // 
-            // btnFindPrevious
+            // btnFindPreviousF
             // 
-            this.btnFindPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFindPrevious.Location = new System.Drawing.Point(364, 188);
-            this.btnFindPrevious.Name = "btnFindPrevious";
-            this.btnFindPrevious.Size = new System.Drawing.Size(107, 23);
-            this.btnFindPrevious.TabIndex = 9;
-            this.btnFindPrevious.Text = "Find &Previous";
-            this.btnFindPrevious.UseVisualStyleBackColor = true;
-            this.btnFindPrevious.Click += new System.EventHandler(this.btnFindPrevious_Click);
+            this.btnFindPreviousF.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFindPreviousF.Location = new System.Drawing.Point(364, 188);
+            this.btnFindPreviousF.Name = "btnFindPreviousF";
+            this.btnFindPreviousF.Size = new System.Drawing.Size(107, 23);
+            this.btnFindPreviousF.TabIndex = 9;
+            this.btnFindPreviousF.Text = "Find &Previous";
+            this.btnFindPreviousF.UseVisualStyleBackColor = true;
+            this.btnFindPreviousF.Click += new System.EventHandler(this.btnFindPrevious_Click);
             // 
-            // btnFindNext
+            // btnFindNextF
             // 
-            this.btnFindNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFindNext.Location = new System.Drawing.Point(364, 212);
-            this.btnFindNext.Name = "btnFindNext";
-            this.btnFindNext.Size = new System.Drawing.Size(107, 23);
-            this.btnFindNext.TabIndex = 10;
-            this.btnFindNext.Text = "Find &Next";
-            this.btnFindNext.UseVisualStyleBackColor = true;
-            this.btnFindNext.Click += new System.EventHandler(this.btnFindNext_Click);
+            this.btnFindNextF.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFindNextF.Location = new System.Drawing.Point(364, 212);
+            this.btnFindNextF.Name = "btnFindNextF";
+            this.btnFindNextF.Size = new System.Drawing.Size(107, 23);
+            this.btnFindNextF.TabIndex = 10;
+            this.btnFindNextF.Text = "Find &Next";
+            this.btnFindNextF.UseVisualStyleBackColor = true;
+            this.btnFindNextF.Click += new System.EventHandler(this.btnFindNext_Click);
             // 
             // grpOptionsF
             // 
@@ -582,6 +584,8 @@ namespace ScintillaNET_FindReplaceDialog
             // 
             // tpgReplace
             // 
+            this.tpgReplace.Controls.Add(this.btnFindNextR);
+            this.tpgReplace.Controls.Add(this.btnFindPreviousR);
             this.tpgReplace.Controls.Add(this.txtReplace);
             this.tpgReplace.Controls.Add(this.txtFindR);
             this.tpgReplace.Controls.Add(this.cmdRecentReplace);
@@ -615,7 +619,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.txtReplace.Location = new System.Drawing.Point(59, 28);
             this.txtReplace.Name = "txtReplace";
             this.txtReplace.Size = new System.Drawing.Size(370, 21);
-            this.txtReplace.TabIndex = 20;
+            this.txtReplace.TabIndex = 3;
             // 
             // txtFindR
             // 
@@ -624,7 +628,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.txtFindR.Location = new System.Drawing.Point(59, 6);
             this.txtFindR.Name = "txtFindR";
             this.txtFindR.Size = new System.Drawing.Size(370, 21);
-            this.txtFindR.TabIndex = 19;
+            this.txtFindR.TabIndex = 1;
             // 
             // cmdRecentReplace
             // 
@@ -634,7 +638,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.cmdRecentReplace.Location = new System.Drawing.Point(430, 27);
             this.cmdRecentReplace.Name = "cmdRecentReplace";
             this.cmdRecentReplace.Size = new System.Drawing.Size(23, 23);
-            this.cmdRecentReplace.TabIndex = 18;
+            this.cmdRecentReplace.TabIndex = 19;
             this.toolTip1.SetToolTip(this.cmdRecentReplace, "Show a list of recent search strings");
             this.cmdRecentReplace.UseVisualStyleBackColor = true;
             this.cmdRecentReplace.Click += new System.EventHandler(this.cmdRecentReplace_Click);
@@ -646,7 +650,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.cmdExtCharAndRegExReplace.Location = new System.Drawing.Point(453, 27);
             this.cmdExtCharAndRegExReplace.Name = "cmdExtCharAndRegExReplace";
             this.cmdExtCharAndRegExReplace.Size = new System.Drawing.Size(23, 23);
-            this.cmdExtCharAndRegExReplace.TabIndex = 17;
+            this.cmdExtCharAndRegExReplace.TabIndex = 18;
             this.cmdExtCharAndRegExReplace.Text = ">";
             this.toolTip1.SetToolTip(this.cmdExtCharAndRegExReplace, "Show a list of extended characters");
             this.cmdExtCharAndRegExReplace.UseVisualStyleBackColor = true;
@@ -660,7 +664,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.cmdRecentFindR.Location = new System.Drawing.Point(430, 5);
             this.cmdRecentFindR.Name = "cmdRecentFindR";
             this.cmdRecentFindR.Size = new System.Drawing.Size(23, 23);
-            this.cmdRecentFindR.TabIndex = 16;
+            this.cmdRecentFindR.TabIndex = 17;
             this.toolTip1.SetToolTip(this.cmdRecentFindR, "Show a list of recent search strings");
             this.cmdRecentFindR.UseVisualStyleBackColor = true;
             this.cmdRecentFindR.Click += new System.EventHandler(this.cmdRecentFindR_Click);
@@ -672,7 +676,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.cmdExtCharAndRegExFindR.Location = new System.Drawing.Point(453, 5);
             this.cmdExtCharAndRegExFindR.Name = "cmdExtCharAndRegExFindR";
             this.cmdExtCharAndRegExFindR.Size = new System.Drawing.Size(23, 23);
-            this.cmdExtCharAndRegExFindR.TabIndex = 15;
+            this.cmdExtCharAndRegExFindR.TabIndex = 16;
             this.cmdExtCharAndRegExFindR.Text = ">";
             this.toolTip1.SetToolTip(this.cmdExtCharAndRegExFindR, "Show a list of extended characters");
             this.cmdExtCharAndRegExFindR.UseVisualStyleBackColor = true;
@@ -684,7 +688,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.rdoExtendedR.Location = new System.Drawing.Point(102, 71);
             this.rdoExtendedR.Name = "rdoExtendedR";
             this.rdoExtendedR.Size = new System.Drawing.Size(139, 17);
-            this.rdoExtendedR.TabIndex = 13;
+            this.rdoExtendedR.TabIndex = 6;
             this.rdoExtendedR.Text = "E&xtended (\\n, \\r, \\t, \\0)";
             this.rdoExtendedR.UseVisualStyleBackColor = true;
             this.rdoExtendedR.CheckedChanged += new System.EventHandler(this.rdoStandardR_CheckedChanged);
@@ -694,7 +698,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.btnReplaceAll.Location = new System.Drawing.Point(7, 212);
             this.btnReplaceAll.Name = "btnReplaceAll";
             this.btnReplaceAll.Size = new System.Drawing.Size(107, 23);
-            this.btnReplaceAll.TabIndex = 10;
+            this.btnReplaceAll.TabIndex = 11;
             this.btnReplaceAll.Text = "Replace &All";
             this.btnReplaceAll.UseVisualStyleBackColor = true;
             this.btnReplaceAll.Click += new System.EventHandler(this.btnReplaceAll_Click);
@@ -714,7 +718,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.chkSearchSelectionR.Location = new System.Drawing.Point(375, 71);
             this.chkSearchSelectionR.Name = "chkSearchSelectionR";
             this.chkSearchSelectionR.Size = new System.Drawing.Size(105, 17);
-            this.chkSearchSelectionR.TabIndex = 8;
+            this.chkSearchSelectionR.TabIndex = 9;
             this.chkSearchSelectionR.Text = "Search Selection";
             this.chkSearchSelectionR.UseVisualStyleBackColor = true;
             // 
@@ -726,7 +730,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.chkWrapR.Location = new System.Drawing.Point(375, 52);
             this.chkWrapR.Name = "chkWrapR";
             this.chkWrapR.Size = new System.Drawing.Size(52, 17);
-            this.chkWrapR.TabIndex = 7;
+            this.chkWrapR.TabIndex = 8;
             this.chkWrapR.Text = "&Wrap";
             this.chkWrapR.UseVisualStyleBackColor = true;
             // 
@@ -736,7 +740,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.btnReplacePrevious.Location = new System.Drawing.Point(364, 188);
             this.btnReplacePrevious.Name = "btnReplacePrevious";
             this.btnReplacePrevious.Size = new System.Drawing.Size(107, 23);
-            this.btnReplacePrevious.TabIndex = 11;
+            this.btnReplacePrevious.TabIndex = 14;
             this.btnReplacePrevious.Text = "Replace &Previous";
             this.btnReplacePrevious.UseVisualStyleBackColor = true;
             this.btnReplacePrevious.Click += new System.EventHandler(this.btnReplacePrevious_Click);
@@ -747,7 +751,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.btnReplaceNext.Location = new System.Drawing.Point(364, 212);
             this.btnReplaceNext.Name = "btnReplaceNext";
             this.btnReplaceNext.Size = new System.Drawing.Size(107, 23);
-            this.btnReplaceNext.TabIndex = 12;
+            this.btnReplaceNext.TabIndex = 15;
             this.btnReplaceNext.Text = "Replace &Next";
             this.btnReplaceNext.UseVisualStyleBackColor = true;
             this.btnReplaceNext.Click += new System.EventHandler(this.btnReplaceNext_Click);
@@ -761,7 +765,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.grdOptionsR.Location = new System.Drawing.Point(4, 94);
             this.grdOptionsR.Name = "grdOptionsR";
             this.grdOptionsR.Size = new System.Drawing.Size(470, 77);
-            this.grdOptionsR.TabIndex = 9;
+            this.grdOptionsR.TabIndex = 10;
             this.grdOptionsR.TabStop = false;
             this.grdOptionsR.Text = "Options";
             // 
@@ -929,7 +933,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.rdoRegexR.Location = new System.Drawing.Point(247, 71);
             this.rdoRegexR.Name = "rdoRegexR";
             this.rdoRegexR.Size = new System.Drawing.Size(117, 17);
-            this.rdoRegexR.TabIndex = 6;
+            this.rdoRegexR.TabIndex = 7;
             this.rdoRegexR.Text = "Regular &Expression";
             this.rdoRegexR.UseVisualStyleBackColor = true;
             this.rdoRegexR.CheckedChanged += new System.EventHandler(this.rdoStandardR_CheckedChanged);
@@ -1580,9 +1584,31 @@ namespace ScintillaNET_FindReplaceDialog
             this.nameToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.nameToolStripMenuItem.Text = "$(Name) Named Group";
             // 
+            // btnFindPreviousR
+            // 
+            this.btnFindPreviousR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFindPreviousR.Location = new System.Drawing.Point(251, 188);
+            this.btnFindPreviousR.Name = "btnFindPreviousR";
+            this.btnFindPreviousR.Size = new System.Drawing.Size(107, 23);
+            this.btnFindPreviousR.TabIndex = 12;
+            this.btnFindPreviousR.Text = "Find Previous";
+            this.btnFindPreviousR.UseVisualStyleBackColor = true;
+            this.btnFindPreviousR.Click += new System.EventHandler(this.btnFindPrevious_Click);
+            // 
+            // btnFindNextR
+            // 
+            this.btnFindNextR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFindNextR.Location = new System.Drawing.Point(251, 212);
+            this.btnFindNextR.Name = "btnFindNextR";
+            this.btnFindNextR.Size = new System.Drawing.Size(107, 23);
+            this.btnFindNextR.TabIndex = 13;
+            this.btnFindNextR.Text = "Find Next";
+            this.btnFindNextR.UseVisualStyleBackColor = true;
+            this.btnFindNextR.Click += new System.EventHandler(this.btnFindNext_Click);
+            // 
             // FindReplaceDialog
             // 
-            this.AcceptButton = this.btnFindNext;
+            this.AcceptButton = this.btnFindNextF;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(488, 292);
@@ -1655,8 +1681,8 @@ namespace ScintillaNET_FindReplaceDialog
 		private System.Windows.Forms.CheckBox chkIgnoreCaseF;
 		private System.Windows.Forms.CheckBox chkExplicitCaptureF;
 		private System.Windows.Forms.CheckBox chkSinglelineF;
-		private System.Windows.Forms.Button btnFindPrevious;
-		private System.Windows.Forms.Button btnFindNext;
+		private System.Windows.Forms.Button btnFindPreviousF;
+		private System.Windows.Forms.Button btnFindNextF;
 		private System.Windows.Forms.CheckBox chkWrapF;
 		private System.Windows.Forms.Button btnClear;
 		private System.Windows.Forms.Button btnFindAll;
@@ -1782,5 +1808,7 @@ namespace ScintillaNET_FindReplaceDialog
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem51;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem50;
 		private System.Windows.Forms.ToolStripMenuItem nameToolStripMenuItem;
+        private System.Windows.Forms.Button btnFindPreviousR;
+        private System.Windows.Forms.Button btnFindNextR;
 	}
 }
