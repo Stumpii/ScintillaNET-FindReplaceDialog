@@ -35,7 +35,9 @@ namespace ScintillaNET_FindReplaceDialog
         public FindReplace(Scintilla scintilla)
         {
             _window = CreateWindowInstance();
-            Scintilla = scintilla;
+
+            if (scintilla != null)
+                Scintilla = scintilla;
         }
 
         /// <summary>

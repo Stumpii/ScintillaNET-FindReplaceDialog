@@ -22,7 +22,8 @@ namespace Demo
             InitializeComponent();
             scintilla1.Styles[Style.Default].Size = 10;
 
-            MyFindReplace = new FindReplace(scintilla1);
+            MyFindReplace = new FindReplace();
+            MyFindReplace.Scintilla = scintilla1;
             MyFindReplace.FindAllResults += MyFindReplace_FindAllResults;
             MyFindReplace.KeyPressed += MyFindReplace_KeyPressed; ;
 
