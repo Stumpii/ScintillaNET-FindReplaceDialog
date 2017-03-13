@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ScintillaNet.FindReplaceDialog</id>
+    <version>1.0.3</version>
+    <title>Find and Replace Dialog for ScintillaNet</title>
+    <authors>stowner</authors>
+    <owners>Steve Towner</owners>
+    <description>
+      A Find and Replace Dialog + Goto Dialog + Incremental Search for ScintillaNET v3.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      A Find and Replace Dialog + Goto Dialog + Incremental Search for ScintillaNET v3.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/NuGet.Packager</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright Steve Towner 2017</copyright>
+    <dependencies>
+      <group targetFramework="net40">
+        <dependency id="log4net" version="1.2.10" />
+      </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
