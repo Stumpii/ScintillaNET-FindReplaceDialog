@@ -1,5 +1,8 @@
-# ScintillaNET-FindReplaceDialog
+# ScintillaNET.SearchBox
 A ScintillaNET v3 Find &amp; Replace Dialog + Goto Dialog + Incremental Search
+
+Based on Steve Towner's project: ScintillaNET-FindReplaceDialog https://github.com/Stumpii/ScintillaNET-FindReplaceDialog
+
 
 # ScintillaNET
 
@@ -18,7 +21,7 @@ Go To Dialog:
 
 ## Documentation
 
-For documentation, refer to the project [Wiki](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki) which has examples of how to integrate this library with ScintillaNET.
+For documentation, refer to the original project [Wiki](https://github.com/Stumpii/ScintillaNET-FindReplaceDialog/wiki) which has examples of how to integrate this library with ScintillaNET.
 
 ## Background
 
