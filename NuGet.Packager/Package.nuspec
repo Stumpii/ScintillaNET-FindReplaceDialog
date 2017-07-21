@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>ScintillaNet.FindReplaceDialog</id>
-    <version>1.0.3</version>
+    <id>ScintillaNet.SearchBox</id>
+    <version>1.0.0</version>
     <title>Find and Replace Dialog for ScintillaNet</title>
-    <authors>stowner</authors>
+    <authors>Armando Ferri</authors>
     <owners>Steve Towner</owners>
     <description>
       A Find and Replace Dialog + Goto Dialog + Incremental Search for ScintillaNET v3.
@@ -15,7 +15,7 @@
       A Find and Replace Dialog + Goto Dialog + Incremental Search for ScintillaNET v3.
     </summary>
     <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/NuGet.Packager</projectUrl>
+    <projectUrl>https://github.com/ArmandoFerri/ScintillaNET-FindReplaceDialog</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
