@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{CFD9151B-59C7-44A7-A93A-22EC9385738D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaNET FindReplaceDialog", "ScintillaNet FindReplaceDialog\ScintillaNET FindReplaceDialog.csproj", "{548FD833-9A3B-41BB-9850-570AFE9A91B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Packager", "NuGet.Packager\NuGet.Packager.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+	ProjectSection(ProjectDependencies) = postProject
+		{548FD833-9A3B-41BB-9850-570AFE9A91B7} = {548FD833-9A3B-41BB-9850-570AFE9A91B7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
