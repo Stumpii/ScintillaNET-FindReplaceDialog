@@ -73,9 +73,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DeleteHS {
+        internal static System.Drawing.Bitmap DownButton {
             get {
-                object obj = ResourceManager.GetObject("DeleteHS", resourceCulture);
+                object obj = ResourceManager.GetObject("DownButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GoToNextMessage {
+        internal static System.Drawing.Bitmap Highlighter {
             get {
-                object obj = ResourceManager.GetObject("GoToNextMessage", resourceCulture);
+                object obj = ResourceManager.GetObject("Highlighter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GoToPreviousMessage {
+        internal static System.Drawing.Bitmap UpButton {
             get {
-                object obj = ResourceManager.GetObject("GoToPreviousMessage", resourceCulture);
+                object obj = ResourceManager.GetObject("UpButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap LineColorHS {
+        internal static System.Drawing.Bitmap XToCloseButton {
             get {
-                object obj = ResourceManager.GetObject("LineColorHS", resourceCulture);
+                object obj = ResourceManager.GetObject("XToCloseButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -111,12 +111,13 @@
   <ItemGroup>
     <Content Include="Resources\Clock.ico" />
     <Content Include="Resources\Clock.png" />
-    <Content Include="Resources\DeleteHS.png" />
-    <Content Include="Resources\GoToNextMessage.png" />
-    <Content Include="Resources\GoToPreviousMessage.png" />
-    <Content Include="Resources\LineColorHS.png" />
+    <Content Include="Resources\DownButton.png" />
+    <Content Include="Resources\Highlighter.png" />
+    <Content Include="Resources\UpButton.png" />
+    <Content Include="Resources\XToCloseButton.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

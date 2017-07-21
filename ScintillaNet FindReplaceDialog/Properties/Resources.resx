@@ -121,16 +121,16 @@
   <data name="Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\deletehs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DownButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DownButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GoToNextMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\gotonextmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Highlighter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Highlighter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GoToPreviousMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\gotopreviousmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UpButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LineColorHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\linecolorhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="XToCloseButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XToCloseButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

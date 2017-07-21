@@ -29,6 +29,7 @@ namespace ScintillaNET_FindReplaceDialog
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IncrementalSearcher));
             this.lblFind = new System.Windows.Forms.Label();
             this.txtFind = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -37,6 +38,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.btnHighlightAll = new System.Windows.Forms.Button();
             this.btnClearHighlights = new System.Windows.Forms.Button();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,22 +78,20 @@ namespace ScintillaNET_FindReplaceDialog
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(259, 22);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(230, 24);
             this.flowLayoutPanel1.TabIndex = 4;
             this.flowLayoutPanel1.WrapContents = false;
             // 
             // btnNext
             // 
-            this.btnNext.AutoSize = true;
-            this.btnNext.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnNext.BackgroundImage = global::ScintillaNET_FindReplaceDialog.Properties.Resources.GoToNextMessage;
-            this.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnNext.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNext.FlatAppearance.BorderSize = 0;
-            this.btnNext.Image = global::ScintillaNET_FindReplaceDialog.Properties.Resources.GoToNextMessage;
+            this.btnNext.ImageKey = "DownButton.png";
+            this.btnNext.ImageList = this.imageList;
             this.btnNext.Location = new System.Drawing.Point(171, 0);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(22, 22);
+            this.btnNext.Size = new System.Drawing.Size(24, 24);
             this.btnNext.TabIndex = 2;
             this.toolTip.SetToolTip(this.btnNext, "Find Next");
             this.btnNext.UseVisualStyleBackColor = true;
@@ -102,11 +102,10 @@ namespace ScintillaNET_FindReplaceDialog
             this.brnPrevious.AutoSize = true;
             this.brnPrevious.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.brnPrevious.FlatAppearance.BorderSize = 0;
-            this.brnPrevious.Image = global::ScintillaNET_FindReplaceDialog.Properties.Resources.GoToPreviousMessage;
             this.brnPrevious.Location = new System.Drawing.Point(193, 0);
             this.brnPrevious.Margin = new System.Windows.Forms.Padding(0);
             this.brnPrevious.Name = "brnPrevious";
-            this.brnPrevious.Size = new System.Drawing.Size(22, 22);
+            this.brnPrevious.Size = new System.Drawing.Size(6, 6);
             this.brnPrevious.TabIndex = 3;
             this.toolTip.SetToolTip(this.brnPrevious, "Find Previous");
             this.brnPrevious.UseVisualStyleBackColor = true;
@@ -116,15 +115,12 @@ namespace ScintillaNET_FindReplaceDialog
             // 
             this.btnHighlightAll.AutoSize = true;
             this.btnHighlightAll.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnHighlightAll.BackgroundImage = global::ScintillaNET_FindReplaceDialog.Properties.Resources.LineColorHS;
             this.btnHighlightAll.FlatAppearance.BorderSize = 0;
             this.btnHighlightAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHighlightAll.ForeColor = System.Drawing.Color.SkyBlue;
-            this.btnHighlightAll.Image = global::ScintillaNET_FindReplaceDialog.Properties.Resources.LineColorHS;
-            this.btnHighlightAll.Location = new System.Drawing.Point(215, 0);
+            this.btnHighlightAll.Location = new System.Drawing.Point(199, 0);
             this.btnHighlightAll.Margin = new System.Windows.Forms.Padding(0);
             this.btnHighlightAll.Name = "btnHighlightAll";
-            this.btnHighlightAll.Size = new System.Drawing.Size(22, 22);
+            this.btnHighlightAll.Size = new System.Drawing.Size(13, 12);
             this.btnHighlightAll.TabIndex = 4;
             this.btnHighlightAll.Text = "&h";
             this.toolTip.SetToolTip(this.btnHighlightAll, "Highlight All Matches (ALT+H)");
@@ -137,16 +133,24 @@ namespace ScintillaNET_FindReplaceDialog
             this.btnClearHighlights.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnClearHighlights.FlatAppearance.BorderSize = 0;
             this.btnClearHighlights.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearHighlights.Image = global::ScintillaNET_FindReplaceDialog.Properties.Resources.DeleteHS;
-            this.btnClearHighlights.Location = new System.Drawing.Point(237, 0);
+            this.btnClearHighlights.Location = new System.Drawing.Point(212, 0);
             this.btnClearHighlights.Margin = new System.Windows.Forms.Padding(0);
             this.btnClearHighlights.Name = "btnClearHighlights";
-            this.btnClearHighlights.Size = new System.Drawing.Size(22, 22);
+            this.btnClearHighlights.Size = new System.Drawing.Size(12, 12);
             this.btnClearHighlights.TabIndex = 5;
             this.btnClearHighlights.Text = "&j";
             this.toolTip.SetToolTip(this.btnClearHighlights, "Clear Highlights (ALT+J)");
             this.btnClearHighlights.UseVisualStyleBackColor = true;
             this.btnClearHighlights.Click += new System.EventHandler(this.btnClearHighlights_Click);
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "DownButton.png");
+            this.imageList.Images.SetKeyName(1, "Highlighter.png");
+            this.imageList.Images.SetKeyName(2, "UpButton.png");
+            this.imageList.Images.SetKeyName(3, "XToCloseButton.png");
             // 
             // IncrementalSearcher
             // 
@@ -154,11 +158,10 @@ namespace ScintillaNET_FindReplaceDialog
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "IncrementalSearcher";
-            this.Size = new System.Drawing.Size(259, 22);
+            this.Size = new System.Drawing.Size(224, 22);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -176,5 +179,6 @@ namespace ScintillaNET_FindReplaceDialog
         private System.Windows.Forms.Button btnHighlightAll;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.Button btnClearHighlights;
+        private System.Windows.Forms.ImageList imageList;
     }
 }

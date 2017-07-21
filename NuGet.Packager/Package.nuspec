@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>ScintillaNet.SearchBox</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Find and Replace Dialog for ScintillaNet</title>
     <authors>Armando Ferri</authors>
     <owners>Steve Towner</owners>
@@ -30,7 +30,7 @@
   </metadata>
   <files>
     <file src="lib\**" target="lib" />
-    <file src="tools\**" target="tools" />
-    <file src="content\**" target="content" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
   </files>
 </package>
