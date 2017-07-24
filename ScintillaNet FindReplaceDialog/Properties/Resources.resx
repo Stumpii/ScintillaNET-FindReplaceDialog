@@ -121,16 +121,16 @@
   <data name="Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DownButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DownButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DownButton_sb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DownButton_sb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Highlighter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Highlighter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Highlighter_sb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Highlighter_sb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="UpButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UpButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UpButton_sb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpButton_sb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="XToCloseButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XToCloseButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="XToCloseButton_sb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XToCloseButton_sb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -73,9 +73,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DownButton {
+        internal static System.Drawing.Bitmap DownButton_sb {
             get {
-                object obj = ResourceManager.GetObject("DownButton", resourceCulture);
+                object obj = ResourceManager.GetObject("DownButton_sb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Highlighter {
+        internal static System.Drawing.Bitmap Highlighter_sb {
             get {
-                object obj = ResourceManager.GetObject("Highlighter", resourceCulture);
+                object obj = ResourceManager.GetObject("Highlighter_sb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UpButton {
+        internal static System.Drawing.Bitmap UpButton_sb {
             get {
-                object obj = ResourceManager.GetObject("UpButton", resourceCulture);
+                object obj = ResourceManager.GetObject("UpButton_sb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap XToCloseButton {
+        internal static System.Drawing.Bitmap XToCloseButton_sb {
             get {
-                object obj = ResourceManager.GetObject("XToCloseButton", resourceCulture);
+                object obj = ResourceManager.GetObject("XToCloseButton_sb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

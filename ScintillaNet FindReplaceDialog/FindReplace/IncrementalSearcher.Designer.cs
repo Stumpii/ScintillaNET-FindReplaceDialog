@@ -30,15 +30,16 @@ namespace ScintillaNET_FindReplaceDialog
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IncrementalSearcher));
+            System.Windows.Forms.Button btnClearHighlights;
             this.lblFind = new System.Windows.Forms.Label();
             this.txtFind = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.brnPrevious = new System.Windows.Forms.Button();
-            this.btnHighlightAll = new System.Windows.Forms.Button();
-            this.btnClearHighlights = new System.Windows.Forms.Button();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnHighlightAll = new System.Windows.Forms.Button();
+            btnClearHighlights = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,13 +50,14 @@ namespace ScintillaNET_FindReplaceDialog
             this.lblFind.Location = new System.Drawing.Point(0, 0);
             this.lblFind.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.lblFind.Name = "lblFind";
-            this.lblFind.Size = new System.Drawing.Size(27, 22);
+            this.lblFind.Size = new System.Drawing.Size(27, 27);
             this.lblFind.TabIndex = 0;
             this.lblFind.Text = "&Find";
             this.lblFind.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtFind
             // 
+            this.txtFind.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtFind.Location = new System.Drawing.Point(33, 1);
             this.txtFind.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
             this.txtFind.Name = "txtFind";
@@ -71,77 +73,16 @@ namespace ScintillaNET_FindReplaceDialog
             this.flowLayoutPanel1.Controls.Add(this.lblFind);
             this.flowLayoutPanel1.Controls.Add(this.txtFind);
             this.flowLayoutPanel1.Controls.Add(this.btnNext);
-            this.flowLayoutPanel1.Controls.Add(this.brnPrevious);
+            this.flowLayoutPanel1.Controls.Add(this.btnPrevious);
             this.flowLayoutPanel1.Controls.Add(this.btnHighlightAll);
-            this.flowLayoutPanel1.Controls.Add(this.btnClearHighlights);
+            this.flowLayoutPanel1.Controls.Add(btnClearHighlights);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(230, 24);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(252, 27);
             this.flowLayoutPanel1.TabIndex = 4;
             this.flowLayoutPanel1.WrapContents = false;
-            // 
-            // btnNext
-            // 
-            this.btnNext.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNext.FlatAppearance.BorderSize = 0;
-            this.btnNext.ImageKey = "DownButton.png";
-            this.btnNext.ImageList = this.imageList;
-            this.btnNext.Location = new System.Drawing.Point(171, 0);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(24, 24);
-            this.btnNext.TabIndex = 2;
-            this.toolTip.SetToolTip(this.btnNext, "Find Next");
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            // 
-            // brnPrevious
-            // 
-            this.brnPrevious.AutoSize = true;
-            this.brnPrevious.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.brnPrevious.FlatAppearance.BorderSize = 0;
-            this.brnPrevious.Location = new System.Drawing.Point(193, 0);
-            this.brnPrevious.Margin = new System.Windows.Forms.Padding(0);
-            this.brnPrevious.Name = "brnPrevious";
-            this.brnPrevious.Size = new System.Drawing.Size(6, 6);
-            this.brnPrevious.TabIndex = 3;
-            this.toolTip.SetToolTip(this.brnPrevious, "Find Previous");
-            this.brnPrevious.UseVisualStyleBackColor = true;
-            this.brnPrevious.Click += new System.EventHandler(this.brnPrevious_Click);
-            // 
-            // btnHighlightAll
-            // 
-            this.btnHighlightAll.AutoSize = true;
-            this.btnHighlightAll.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnHighlightAll.FlatAppearance.BorderSize = 0;
-            this.btnHighlightAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHighlightAll.Location = new System.Drawing.Point(199, 0);
-            this.btnHighlightAll.Margin = new System.Windows.Forms.Padding(0);
-            this.btnHighlightAll.Name = "btnHighlightAll";
-            this.btnHighlightAll.Size = new System.Drawing.Size(13, 12);
-            this.btnHighlightAll.TabIndex = 4;
-            this.btnHighlightAll.Text = "&h";
-            this.toolTip.SetToolTip(this.btnHighlightAll, "Highlight All Matches (ALT+H)");
-            this.btnHighlightAll.UseVisualStyleBackColor = true;
-            this.btnHighlightAll.Click += new System.EventHandler(this.btnHighlightAll_Click);
-            // 
-            // btnClearHighlights
-            // 
-            this.btnClearHighlights.AutoSize = true;
-            this.btnClearHighlights.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnClearHighlights.FlatAppearance.BorderSize = 0;
-            this.btnClearHighlights.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearHighlights.Location = new System.Drawing.Point(212, 0);
-            this.btnClearHighlights.Margin = new System.Windows.Forms.Padding(0);
-            this.btnClearHighlights.Name = "btnClearHighlights";
-            this.btnClearHighlights.Size = new System.Drawing.Size(12, 12);
-            this.btnClearHighlights.TabIndex = 5;
-            this.btnClearHighlights.Text = "&j";
-            this.toolTip.SetToolTip(this.btnClearHighlights, "Clear Highlights (ALT+J)");
-            this.btnClearHighlights.UseVisualStyleBackColor = true;
-            this.btnClearHighlights.Click += new System.EventHandler(this.btnClearHighlights_Click);
             // 
             // imageList
             // 
@@ -152,6 +93,76 @@ namespace ScintillaNET_FindReplaceDialog
             this.imageList.Images.SetKeyName(2, "UpButton.png");
             this.imageList.Images.SetKeyName(3, "XToCloseButton.png");
             // 
+            // btnNext
+            // 
+            this.btnNext.AutoSize = true;
+            this.btnNext.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnNext.FlatAppearance.BorderSize = 0;
+            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNext.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.Image")));
+            this.btnNext.Location = new System.Drawing.Point(168, 0);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(0);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(21, 27);
+            this.btnNext.TabIndex = 2;
+            this.toolTip.SetToolTip(this.btnNext, "Find Next");
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.AutoSize = true;
+            this.btnPrevious.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnPrevious.FlatAppearance.BorderSize = 0;
+            this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevious.Image")));
+            this.btnPrevious.Location = new System.Drawing.Point(189, 0);
+            this.btnPrevious.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(21, 27);
+            this.btnPrevious.TabIndex = 2;
+            this.toolTip.SetToolTip(this.btnPrevious, "Find Previous");
+            this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
+            // 
+            // btnHighlightAll
+            // 
+            this.btnHighlightAll.AutoSize = true;
+            this.btnHighlightAll.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnHighlightAll.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnHighlightAll.FlatAppearance.BorderSize = 0;
+            this.btnHighlightAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHighlightAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHighlightAll.Image = ((System.Drawing.Image)(resources.GetObject("btnHighlightAll.Image")));
+            this.btnHighlightAll.Location = new System.Drawing.Point(210, 0);
+            this.btnHighlightAll.Margin = new System.Windows.Forms.Padding(0);
+            this.btnHighlightAll.Name = "btnHighlightAll";
+            this.btnHighlightAll.Size = new System.Drawing.Size(21, 27);
+            this.btnHighlightAll.TabIndex = 4;
+            this.btnHighlightAll.Text = "&h";
+            this.toolTip.SetToolTip(this.btnHighlightAll, "Highlight All Matches (ALT+H)");
+            this.btnHighlightAll.UseVisualStyleBackColor = true;
+            this.btnHighlightAll.Click += new System.EventHandler(this.btnHighlightAll_Click);
+            // 
+            // btnClearHighlights
+            // 
+            btnClearHighlights.AutoSize = true;
+            btnClearHighlights.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            btnClearHighlights.Dock = System.Windows.Forms.DockStyle.Right;
+            btnClearHighlights.FlatAppearance.BorderSize = 0;
+            btnClearHighlights.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnClearHighlights.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btnClearHighlights.Image = ((System.Drawing.Image)(resources.GetObject("btnClearHighlights.Image")));
+            btnClearHighlights.Location = new System.Drawing.Point(231, 0);
+            btnClearHighlights.Margin = new System.Windows.Forms.Padding(0);
+            btnClearHighlights.Name = "btnClearHighlights";
+            btnClearHighlights.Size = new System.Drawing.Size(21, 27);
+            btnClearHighlights.TabIndex = 5;
+            btnClearHighlights.Text = "&j";
+            this.toolTip.SetToolTip(btnClearHighlights, "Clear Highlights (ALT+J)");
+            btnClearHighlights.UseVisualStyleBackColor = true;
+            btnClearHighlights.Click += new System.EventHandler(this.btnClearHighlights_Click);
+            // 
             // IncrementalSearcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,7 +172,7 @@ namespace ScintillaNET_FindReplaceDialog
             this.Controls.Add(this.flowLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "IncrementalSearcher";
-            this.Size = new System.Drawing.Size(224, 22);
+            this.Size = new System.Drawing.Size(252, 27);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -174,11 +185,10 @@ namespace ScintillaNET_FindReplaceDialog
         private System.Windows.Forms.Label lblFind;
         private System.Windows.Forms.TextBox txtFind;
         private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Button brnPrevious;
+        private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnHighlightAll;
         private System.Windows.Forms.ToolTip toolTip;
-        private System.Windows.Forms.Button btnClearHighlights;
         private System.Windows.Forms.ImageList imageList;
     }
 }

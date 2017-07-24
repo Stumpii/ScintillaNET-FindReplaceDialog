@@ -112,8 +112,12 @@
     <Content Include="Resources\Clock.ico" />
     <Content Include="Resources\Clock.png" />
     <Content Include="Resources\DownButton.png" />
+    <None Include="Resources\XToCloseButton_sb.png" />
+    <None Include="Resources\DownButton_sb.png" />
     <Content Include="Resources\Highlighter.png" />
+    <None Include="Resources\Highlighter_sb.png" />
     <Content Include="Resources\UpButton.png" />
+    <None Include="Resources\UpButton_sb.png" />
     <Content Include="Resources\XToCloseButton.png" />
   </ItemGroup>
   <ItemGroup>

@@ -109,7 +109,7 @@ namespace ScintillaNET_FindReplaceDialog
 
         #region Event Handlers
 
-        private void brnPrevious_Click(object sender, EventArgs e)
+        private void btnPrevious_Click(object sender, EventArgs e)
         {
             findPrevious();
         }

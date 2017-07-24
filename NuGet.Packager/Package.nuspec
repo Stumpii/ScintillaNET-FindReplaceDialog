@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>ScintillaNet.SearchBox</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Find and Replace Dialog for ScintillaNet</title>
     <authors>Armando Ferri</authors>
     <owners>Steve Towner</owners>
