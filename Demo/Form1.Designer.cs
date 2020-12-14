@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using ScintillaNET;
+
+namespace Demo
 {
     partial class Form1
     {
@@ -184,7 +186,7 @@
 
 		#endregion
 
-		private ScintillaNET.Scintilla scintilla1;
+		private Scintilla scintilla1;
         private ScintillaNET_FindReplaceDialog.IncrementalSearcher incrementalSearcher1;
         private System.Windows.Forms.Button GotoButton;
         private ScintillaNET_FindReplaceDialog.FindAllResults.FindAllResultsPanel findAllResultsPanel1;

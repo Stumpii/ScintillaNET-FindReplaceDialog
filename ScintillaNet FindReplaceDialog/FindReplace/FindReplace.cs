@@ -232,7 +232,7 @@ namespace ScintillaNET_FindReplaceDialog
 			return Find(new CharacterRange(startPos, endPos), findExpression, searchUp);
 		}
 
-		public unsafe CharacterRange Find(int startPos, int endPos, string searchString, SearchFlags flags)
+		public CharacterRange Find(int startPos, int endPos, string searchString, SearchFlags flags)
 		{
 			if (string.IsNullOrEmpty(searchString))
 				return new CharacterRange();
