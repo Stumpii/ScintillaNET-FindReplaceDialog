@@ -56,7 +56,7 @@ jobs:
 
     env:
       Solution_Name: ScintillaNET FindReplaceDialog.sln
-      Project_1: ScintillaNet FindReplaceDialog/ScintillaNET_FindReplaceDialog.csproj
+      Project_1: ScintillaNet_FindReplaceDialog/ScintillaNET_FindReplaceDialog.csproj
 
     steps:
     - name: Checkout
