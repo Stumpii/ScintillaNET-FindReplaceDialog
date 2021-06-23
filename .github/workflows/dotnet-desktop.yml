@@ -89,7 +89,6 @@ jobs:
         $nuget_config_bytes = [System.Convert]::FromBase64String("${{ secrets.NUGETCONFIG }}")
         $currentDirectory = Get-Location
         $nugetConfigFile = Join-Path -Path $currentDirectory -ChildPath "nuget.config"        
-        Write-Output "NuGet config: $nugetConfigFile"
         [IO.File]::WriteAllBytes("$nugetConfigFile", $nuget_config_bytes)
     - name: NuGet push
       if: ${{ github.event_name != 'pull_request' }}
