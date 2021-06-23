@@ -1,0 +1,96 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ScintillaNET_FindReplaceDialog</RootNamespace>
+    <TargetFrameworks>netcoreapp3.1;net5.0-windows;net40</TargetFrameworks>
+    <AssemblyTitle>ScintillaNet FindReplaceDialog</AssemblyTitle>
+    <Product>ScintillaNet FindReplaceDialog</Product>
+    <Copyright>Copyright © [unknown] 2016-2017, 2021 VPKSoft</Copyright>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DocumentationFile>bin\$(Configuration)\ScintillaNET FindReplaceDialog.XML</DocumentationFile>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <Version>1.5.0</Version>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Find and replace dialog for the Scintilla.NET.</Description>
+    <PackageProjectUrl>https://github.com/VPKSoft/ScintillaNET-FindReplaceDialog</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/VPKSoft/ScintillaNET-FindReplaceDialog</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>find search replace dialog winforms scintilla</PackageTags>
+    <PackageReleaseNotes>See: https://github.com/VPKSoft/ScintillaNET-FindReplaceDialog</PackageReleaseNotes>
+    <PackageIcon>search.png</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="unofficial.ScintillaNET" Version="3.8.7" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net40' ">
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FindAllResults\FindAllResultsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FindAllResults\FindAllResultsPanel.Designer.cs">
+      <DependentUpon>FindAllResultsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FindReplace\FindReplace.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="FindReplace\FindReplaceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FindReplace\FindReplaceDialog.Designer.cs">
+      <DependentUpon>FindReplaceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FindReplace\IncrementalSearcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FindReplace\IncrementalSearcher.Designer.cs">
+      <DependentUpon>IncrementalSearcher.cs</DependentUpon>
+    </Compile>
+    <Compile Update="FindReplace\ToolStripIncrementalSearcher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GoTo\GoToDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GoTo\GoToDialog.Designer.cs">
+      <DependentUpon>GoToDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="FindAllResults\FindAllResultsPanel.resx">
+      <DependentUpon>FindAllResultsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FindReplace\FindReplaceDialog.resx">
+      <DependentUpon>FindReplaceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FindReplace\IncrementalSearcher.resx">
+      <DependentUpon>IncrementalSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GoTo\GoToDialog.resx">
+      <DependentUpon>GoToDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Clock.ico" />
+    <Content Include="Resources\Clock.png" />
+    <Content Include="Resources\DeleteHS.png" />
+    <Content Include="Resources\GoToNextMessage.png" />
+    <Content Include="Resources\GoToPreviousMessage.png" />
+    <Content Include="Resources\LineColorHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="search.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
