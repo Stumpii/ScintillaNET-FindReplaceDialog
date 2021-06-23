@@ -32,7 +32,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <ProjectReference Include="..\ScintillaNet FindReplaceDialog\ScintillaNET_FindReplaceDialog.csproj" />
+    <ProjectReference Include="..\ScintillaNet_FindReplaceDialog\ScintillaNET_FindReplaceDialog.csproj" />
     <Compile Update="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>

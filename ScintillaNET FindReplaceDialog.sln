@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{CFD9151B-59C7-44A7-A93A-22EC9385738D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScintillaNET_FindReplaceDialog", "ScintillaNet FindReplaceDialog\ScintillaNET_FindReplaceDialog.csproj", "{548FD833-9A3B-41BB-9850-570AFE9A91B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScintillaNET_FindReplaceDialog", "ScintillaNet_FindReplaceDialog\ScintillaNET_FindReplaceDialog.csproj", "{7FA22A4B-FB50-4D65-B79F-F3EEDB413C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD9151B-59C7-44A7-A93A-22EC9385738D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{548FD833-9A3B-41BB-9850-570AFE9A91B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA22A4B-FB50-4D65-B79F-F3EEDB413C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA22A4B-FB50-4D65-B79F-F3EEDB413C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA22A4B-FB50-4D65-B79F-F3EEDB413C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA22A4B-FB50-4D65-B79F-F3EEDB413C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
