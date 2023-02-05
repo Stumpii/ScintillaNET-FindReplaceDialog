@@ -8,7 +8,7 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <DocumentationFile>bin\$(Configuration)\ScintillaNET FindReplaceDialog.XML</DocumentationFile>
     <OutputPath>bin\$(Configuration)\</OutputPath>
-    <Version>1.5.0</Version>
+    <Version>1.5.1</Version>
     <UseWindowsForms>true</UseWindowsForms>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
