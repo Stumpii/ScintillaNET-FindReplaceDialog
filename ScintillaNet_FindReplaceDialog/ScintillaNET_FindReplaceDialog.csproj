@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>ScintillaNET_FindReplaceDialog</RootNamespace>
-    <TargetFrameworks>netcoreapp3.1;net5.0-windows;net40</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net6.0-windows;net45</TargetFrameworks>
     <AssemblyTitle>ScintillaNet FindReplaceDialog</AssemblyTitle>
     <Product>ScintillaNet FindReplaceDialog</Product>
     <Copyright>Copyright © [unknown] 2016-2017, 2021 VPKSoft</Copyright>
@@ -23,7 +23,7 @@
     <PackageIconUrl />
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="unofficial.ScintillaNET" Version="3.8.7" />
+    <PackageReference Include="Scintilla.NET" Version="5.3.2.4" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net40' ">
     <Reference Include="System.Windows.Forms" />
