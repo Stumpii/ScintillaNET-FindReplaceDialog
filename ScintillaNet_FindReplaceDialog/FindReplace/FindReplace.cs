@@ -222,6 +222,15 @@ namespace ScintillaNET_FindReplaceDialog
 			}
 		}
 
+		/// <inheritdoc/>
+		protected override void Dispose(bool disposing) {
+			if (disposing && _window != null)
+			{
+				_window.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
 		public CharacterRange Find(int startPos, int endPos, Regex findExpression)
 		{
 			return Find(new CharacterRange(startPos, endPos), findExpression, false);

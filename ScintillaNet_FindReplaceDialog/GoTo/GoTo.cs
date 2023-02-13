@@ -8,12 +8,17 @@ using System.Windows.Forms;
 
 namespace ScintillaNET_FindReplaceDialog
 {
-	public class GoTo
+	public class GoTo : IDisposable
 	{
 		private Scintilla _scintilla;
 		private GoToDialog _window;
 
 		#region Methods
+
+		public void Dispose()
+		{
+			_window.Dispose();
+		}
 
 		public void Line(int number)
 		{
@@ -46,7 +51,7 @@ namespace ScintillaNET_FindReplaceDialog
 			//gd.ShowDialog();
 			//gd.Show();
 
-			_scintilla.Focus();
+			//_scintilla.Focus();
 		}
 
 		#endregion Methods
