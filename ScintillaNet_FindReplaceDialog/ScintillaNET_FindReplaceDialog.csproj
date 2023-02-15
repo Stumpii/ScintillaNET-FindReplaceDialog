@@ -72,10 +72,19 @@
     <EmbeddedResource Update="FindReplace\FindReplaceDialog.resx">
       <DependentUpon>FindReplaceDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Update="FindReplace\FindReplaceDialog.de.resx">
+      <DependentUpon>FindReplaceDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Update="FindReplace\IncrementalSearcher.resx">
       <DependentUpon>IncrementalSearcher.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Update="FindReplace\IncrementalSearcher.de.resx">
+      <DependentUpon>IncrementalSearcher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Update="GoTo\GoToDialog.resx">
+      <DependentUpon>GoToDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GoTo\GoToDialog.de.resx">
       <DependentUpon>GoToDialog.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -90,7 +99,8 @@
   <ItemGroup>
     <None Include="search.png">
       <Pack>True</Pack>
-      <PackagePath></PackagePath>
+      <PackagePath>
+      </PackagePath>
     </None>
   </ItemGroup>
 </Project>
