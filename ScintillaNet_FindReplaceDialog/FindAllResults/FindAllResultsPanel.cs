@@ -85,7 +85,7 @@
 
                 if (startLine == endLine)
                 {
-                    string resultsLinePrefix = string.Format("Line {0}: ", startLine + 1);
+                    string resultsLinePrefix = string.Format(Properties.Resources.FindAllResults_ResultsLinePrefix, startLine + 1);
 
                     FindResultsScintilla.AppendText(string.Format("{0}{1}",
                         resultsLinePrefix, Scintilla.Lines[startLine].Text));

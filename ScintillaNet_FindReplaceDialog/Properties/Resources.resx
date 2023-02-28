@@ -124,11 +124,44 @@
   <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\deletehs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FindAllResults_ResultsLinePrefix" xml:space="preserve">
+    <value>Line {0}: </value>
+  </data>
+  <data name="FindReplace_Status_ErrorInRegex" xml:space="preserve">
+    <value>Error in Regular Expression: </value>
+  </data>
+  <data name="FindReplace_Status_MatchNotFound" xml:space="preserve">
+    <value>Match could not be found</value>
+  </data>
+  <data name="FindReplace_Status_MatchWrappedBeginningDocument" xml:space="preserve">
+    <value>Search match wrapped to the beginning of the document</value>
+  </data>
+  <data name="FindReplace_Status_MatchWrappedBeginningSelection" xml:space="preserve">
+    <value>Search match wrapped to the beginning of the selection</value>
+  </data>
+  <data name="FindReplace_Status_MatchWrappedEndDocument" xml:space="preserve">
+    <value>Search match wrapped to the end of the document</value>
+  </data>
+  <data name="FindReplace_Status_MatchWrappedEndSelection" xml:space="preserve">
+    <value>Search match wrapped to the end of the selection</value>
+  </data>
+  <data name="FindReplace_Status_TotalFound" xml:space="preserve">
+    <value>Total found: </value>
+  </data>
+  <data name="FindReplace_Status_TotalReplaced" xml:space="preserve">
+    <value>Total replaced: </value>
+  </data>
   <data name="GoToNextMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\gotonextmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GoToPreviousMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\gotopreviousmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoTo_Error_MustBeInRange" xml:space="preserve">
+    <value>Go to line # must be greater than 0 and less than {0}</value>
+  </data>
+  <data name="GoTo_Error_MustBeNumeric" xml:space="preserve">
+    <value>Go to line # must be a numeric value</value>
   </data>
   <data name="LineColorHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\linecolorhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

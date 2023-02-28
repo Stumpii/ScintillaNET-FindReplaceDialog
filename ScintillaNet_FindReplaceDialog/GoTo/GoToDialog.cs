@@ -29,7 +29,7 @@ namespace ScintillaNET_FindReplaceDialog
                 //	Line #s are 0 based but the users don't think that way
                 _gotoLineNumber--;
                 if (_gotoLineNumber < 0 || _gotoLineNumber >= _maximumLineNumber)
-                    err.SetError(txtGotoLine, "Go to line # must be greater than 0 and less than " + (_maximumLineNumber + 1).ToString());
+                    err.SetError(txtGotoLine, string.Format(Properties.Resources.GoTo_Error_MustBeInRange, _maximumLineNumber + 1));
                 else
                 {
                     _scintilla.Lines[_gotoLineNumber].Goto();
@@ -40,7 +40,7 @@ namespace ScintillaNET_FindReplaceDialog
             }
             else
             {
-                err.SetError(txtGotoLine, "Go to line # must be a numeric value");
+                err.SetError(txtGotoLine, Properties.Resources.GoTo_Error_MustBeNumeric);
             }
         }
 
