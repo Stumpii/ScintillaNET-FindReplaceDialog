@@ -118,6 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkEcmaScriptF.Text" xml:space="preserve">
+    <value>ECMA Script</value>
+  </data>
+  <data name="chkEcmaScriptR.Text" xml:space="preserve">
+    <value>ECMA Script</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindF.Text" xml:space="preserve">
+    <value>Verlauf &amp;löschen</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindR.Text" xml:space="preserve">
+    <value>Verlauf &amp;löschen</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemReplace.Text" xml:space="preserve">
+    <value>Verlauf &amp;löschen</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
   <data name="cmdRecentFindF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -128,11 +152,11 @@
   <data name="cmdRecentFindF.ToolTip" xml:space="preserve">
     <value>Eine Liste der letzten Suchen anzeigen</value>
   </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>xxx</value>
+  </data>
   <data name="txtFindF.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 21</value>
-  </data>
-  <data name="txtFindF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="cmdExtCharAndRegExFindF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -152,17 +176,11 @@
   <data name="rdoExtendedF.Text" xml:space="preserve">
     <value>Erweitert (\n, \r, \t, \0)</value>
   </data>
-  <data name="rdoExtendedF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnClear.Text" xml:space="preserve">
     <value>&amp;Löschen</value>
-  </data>
-  <data name="btnClear.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="btnFindAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -170,17 +188,11 @@
   <data name="btnFindAll.Text" xml:space="preserve">
     <value>&amp;Alle suchen</value>
   </data>
-  <data name="btnFindAll.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkHighlightMatches.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="chkHighlightMatches.Text" xml:space="preserve">
     <value>Treffer &amp;markieren</value>
-  </data>
-  <data name="chkHighlightMatches.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkMarkLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -191,14 +203,8 @@
   <data name="chkMarkLine.Text" xml:space="preserve">
     <value>&amp;Zeile markieren</value>
   </data>
-  <data name="chkMarkLine.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="grpFindAll.Text" xml:space="preserve">
     <value>Alle suchen</value>
-  </data>
-  <data name="grpFindAll.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkSearchSelectionF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -209,9 +215,6 @@
   <data name="chkSearchSelectionF.Text" xml:space="preserve">
     <value>In Auswahl suchen</value>
   </data>
-  <data name="chkSearchSelectionF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkWrapF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -220,9 +223,6 @@
   </data>
   <data name="chkWrapF.Text" xml:space="preserve">
     <value>Am Ende von &amp;vorne beginnen</value>
-  </data>
-  <data name="chkWrapF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="btnFindPreviousF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -233,9 +233,6 @@
   <data name="btnFindPreviousF.Text" xml:space="preserve">
     <value>&amp;Rückwärts suchen</value>
   </data>
-  <data name="btnFindPreviousF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="btnFindNextF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -244,9 +241,6 @@
   </data>
   <data name="btnFindNextF.Text" xml:space="preserve">
     <value>&amp;Weitersuchen</value>
-  </data>
-  <data name="btnFindNextF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkWordStartF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -257,9 +251,6 @@
   <data name="chkWordStartF.Text" xml:space="preserve">
     <value>W&amp;ortanfang</value>
   </data>
-  <data name="chkWordStartF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkWholeWordF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -268,9 +259,6 @@
   </data>
   <data name="chkWholeWordF.Text" xml:space="preserve">
     <value>Ganzes Wor&amp;t</value>
-  </data>
-  <data name="chkWholeWordF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkMatchCaseF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -281,14 +269,8 @@
   <data name="chkMatchCaseF.Text" xml:space="preserve">
     <value>Groß-/Kleinschreibung &amp;beachten</value>
   </data>
-  <data name="chkMatchCaseF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="pnlStandardOptionsF.Size" type="System.Drawing.Size, System.Drawing">
     <value>522, 57</value>
-  </data>
-  <data name="pnlStandardOptionsF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkSinglelineF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -299,9 +281,6 @@
   <data name="chkSinglelineF.Text" xml:space="preserve">
     <value>Einzeilig</value>
   </data>
-  <data name="chkSinglelineF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkRightToLeftF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -310,9 +289,6 @@
   </data>
   <data name="chkRightToLeftF.Text" xml:space="preserve">
     <value>Rechts nach links</value>
-  </data>
-  <data name="chkRightToLeftF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkMultilineF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -323,9 +299,6 @@
   <data name="chkMultilineF.Text" xml:space="preserve">
     <value>Mehrzeilig</value>
   </data>
-  <data name="chkMultilineF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkIgnorePatternWhitespaceF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -334,9 +307,6 @@
   </data>
   <data name="chkIgnorePatternWhitespaceF.Text" xml:space="preserve">
     <value>Leerraum i&amp;gnorieren</value>
-  </data>
-  <data name="chkIgnorePatternWhitespaceF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkIgnoreCaseF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -347,9 +317,6 @@
   <data name="chkIgnoreCaseF.Text" xml:space="preserve">
     <value>Groß/Klein &amp;ignorieren</value>
   </data>
-  <data name="chkIgnoreCaseF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkExplicitCaptureF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -359,14 +326,8 @@
   <data name="chkExplicitCaptureF.Text" xml:space="preserve">
     <value>E&amp;xplizite Erfassung</value>
   </data>
-  <data name="chkExplicitCaptureF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkEcmaScriptF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="chkEcmaScriptF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkCultureInvariantF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -377,9 +338,6 @@
   <data name="chkCultureInvariantF.Text" xml:space="preserve">
     <value>Invariante K&amp;ultur</value>
   </data>
-  <data name="chkCultureInvariantF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkCompiledF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -389,23 +347,14 @@
   <data name="chkCompiledF.Text" xml:space="preserve">
     <value>&amp;Kompiliert</value>
   </data>
-  <data name="chkCompiledF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="pnlRegexpOptionsF.Size" type="System.Drawing.Size, System.Drawing">
     <value>522, 57</value>
-  </data>
-  <data name="pnlRegexpOptionsF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="grpOptionsF.Size" type="System.Drawing.Size, System.Drawing">
     <value>528, 77</value>
   </data>
   <data name="grpOptionsF.Text" xml:space="preserve">
     <value>Optionen</value>
-  </data>
-  <data name="grpOptionsF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="lblSearchTypeF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -416,9 +365,6 @@
   <data name="lblSearchTypeF.Text" xml:space="preserve">
     <value>Suchtyp</value>
   </data>
-  <data name="lblSearchTypeF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rdoRegexF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -428,17 +374,11 @@
   <data name="rdoRegexF.Text" xml:space="preserve">
     <value>Regul&amp;ärer Ausdruck</value>
   </data>
-  <data name="rdoRegexF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rdoStandardF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="rdoStandardF.Text" xml:space="preserve">
     <value>Stan&amp;dard</value>
-  </data>
-  <data name="rdoStandardF.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="lblFindF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -449,41 +389,23 @@
   <data name="lblFindF.Text" xml:space="preserve">
     <value>&amp;Suchen</value>
   </data>
-  <data name="lblFindF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tpgFind.Size" type="System.Drawing.Size, System.Drawing">
     <value>538, 244</value>
   </data>
   <data name="tpgFind.Text" xml:space="preserve">
     <value>Suchen</value>
   </data>
-  <data name="tpgFind.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="btnFindNextR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnFindNextR.Text" xml:space="preserve">
-    <value>Weitersuchen </value>
-  </data>
-  <data name="btnFindNextR.ToolTip" xml:space="preserve">
-    <value />
+    <value>Weitersuchen</value>
   </data>
   <data name="btnFindPreviousR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnFindPreviousR.Text" xml:space="preserve">
     <value>Rückwärts suchen</value>
-  </data>
-  <data name="btnFindPreviousR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtReplace.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtFindR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="cmdExtCharAndRegExReplace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -506,17 +428,11 @@
   <data name="rdoExtendedR.Text" xml:space="preserve">
     <value>Erweitert (\n, \r, \t, \0)</value>
   </data>
-  <data name="rdoExtendedR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="btnReplaceAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnReplaceAll.Text" xml:space="preserve">
     <value>&amp;Alle ersetzen</value>
-  </data>
-  <data name="btnReplaceAll.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="lblReplace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -527,9 +443,6 @@
   <data name="lblReplace.Text" xml:space="preserve">
     <value>&amp;Ersetzen</value>
   </data>
-  <data name="lblReplace.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkSearchSelectionR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -538,9 +451,6 @@
   </data>
   <data name="chkSearchSelectionR.Text" xml:space="preserve">
     <value>In Auswahl suchen</value>
-  </data>
-  <data name="chkSearchSelectionR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkWrapR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -551,26 +461,17 @@
   <data name="chkWrapR.Text" xml:space="preserve">
     <value>Am Ende von &amp;vorne beginnen</value>
   </data>
-  <data name="chkWrapR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="btnReplacePrevious.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnReplacePrevious.Text" xml:space="preserve">
     <value>&amp;Rückwärts ersetzen</value>
   </data>
-  <data name="btnReplacePrevious.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="btnReplaceNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnReplaceNext.Text" xml:space="preserve">
     <value>&amp;Weiter ersetzen</value>
-  </data>
-  <data name="btnReplaceNext.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkWordStartR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -581,9 +482,6 @@
   <data name="chkWordStartR.Text" xml:space="preserve">
     <value>W&amp;ortanfang</value>
   </data>
-  <data name="chkWordStartR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkWholeWordR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -592,9 +490,6 @@
   </data>
   <data name="chkWholeWordR.Text" xml:space="preserve">
     <value>Ganzes Wor&amp;t</value>
-  </data>
-  <data name="chkWholeWordR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkMatchCaseR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -605,12 +500,6 @@
   <data name="chkMatchCaseR.Text" xml:space="preserve">
     <value>Groß-/Kleinschreibung &amp;beachten</value>
   </data>
-  <data name="chkMatchCaseR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pnlStandardOptionsR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkSinglelineR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -619,9 +508,6 @@
   </data>
   <data name="chkSinglelineR.Text" xml:space="preserve">
     <value>Einzeilig</value>
-  </data>
-  <data name="chkSinglelineR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkRightToLeftR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -632,9 +518,6 @@
   <data name="chkRightToLeftR.Text" xml:space="preserve">
     <value>Rechts nach links</value>
   </data>
-  <data name="chkRightToLeftR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkMultilineR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -643,9 +526,6 @@
   </data>
   <data name="chkMultilineR.Text" xml:space="preserve">
     <value>Mehrzeilig</value>
-  </data>
-  <data name="chkMultilineR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkIgnorePatternWhitespaceR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -656,9 +536,6 @@
   <data name="chkIgnorePatternWhitespaceR.Text" xml:space="preserve">
     <value>Leerraum i&amp;gnorieren</value>
   </data>
-  <data name="chkIgnorePatternWhitespaceR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkIgnoreCaseR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -667,9 +544,6 @@
   </data>
   <data name="chkIgnoreCaseR.Text" xml:space="preserve">
     <value>Groß/Klein &amp;ignorieren</value>
-  </data>
-  <data name="chkIgnoreCaseR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkExplicitCaptureR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -680,14 +554,8 @@
   <data name="chkExplicitCaptureR.Text" xml:space="preserve">
     <value>E&amp;xplizite Erfassung</value>
   </data>
-  <data name="chkExplicitCaptureR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkEcmaScriptR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="chkEcmaScriptR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="chkCultureInvariantR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -698,9 +566,6 @@
   <data name="chkCultureInvariantR.Text" xml:space="preserve">
     <value>Invariante K&amp;ultur</value>
   </data>
-  <data name="chkCultureInvariantR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkCompiledR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -710,17 +575,8 @@
   <data name="chkCompiledR.Text" xml:space="preserve">
     <value>&amp;Kompiliert</value>
   </data>
-  <data name="chkCompiledR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pnlRegexpOptionsR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="grdOptionsR.Text" xml:space="preserve">
     <value>Optionen</value>
-  </data>
-  <data name="grdOptionsR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="lblSearchTypeR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -731,9 +587,6 @@
   <data name="lblSearchTypeR.Text" xml:space="preserve">
     <value>Suchtyp</value>
   </data>
-  <data name="lblSearchTypeR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rdoRegexR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -743,17 +596,11 @@
   <data name="rdoRegexR.Text" xml:space="preserve">
     <value>Regul&amp;ärer Ausdruck</value>
   </data>
-  <data name="rdoRegexR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="rdoStandardR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="rdoStandardR.Text" xml:space="preserve">
     <value>Stan&amp;dard</value>
-  </data>
-  <data name="rdoStandardR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="lblFindR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -763,9 +610,6 @@
   </data>
   <data name="lblFindR.Text" xml:space="preserve">
     <value>&amp;Suchen</value>
-  </data>
-  <data name="lblFindR.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="cmdRecentReplace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -782,20 +626,11 @@
   <data name="tpgReplace.Text" xml:space="preserve">
     <value>Ersetzen</value>
   </data>
-  <data name="tpgReplace.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>546, 270</value>
   </data>
-  <data name="tabAll.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>546, 22</value>
-  </data>
-  <data name="statusStrip.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 22</value>
@@ -830,12 +665,6 @@
   <data name="mnuExtendedCharFindF.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 114</value>
   </data>
-  <data name="mnuExtendedCharFindF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="mnuRecentFindF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 22</value>
   </data>
@@ -869,9 +698,6 @@
   <data name="mnuExtendedCharFindR.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 114</value>
   </data>
-  <data name="mnuExtendedCharFindR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 22</value>
   </data>
@@ -904,15 +730,6 @@
   </data>
   <data name="mnuExtendedCharReplace.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 114</value>
-  </data>
-  <data name="mnuExtendedCharReplace.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="mnuRecentFindR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="mnuRecentReplace.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 22</value>
@@ -1037,9 +854,6 @@
   <data name="mnuRegExCharFindF.Size" type="System.Drawing.Size, System.Drawing">
     <value>305, 424</value>
   </data>
-  <data name="mnuRegExCharFindF.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="toolStripMenuItem30.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 22</value>
   </data>
@@ -1163,9 +977,6 @@
   <data name="mnuRegExCharFindR.Size" type="System.Drawing.Size, System.Drawing">
     <value>305, 424</value>
   </data>
-  <data name="mnuRegExCharFindR.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="toolStripMenuItem48.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 22</value>
   </data>
@@ -1235,9 +1046,6 @@
   <data name="mnuRegExCharReplace.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 246</value>
   </data>
-  <data name="mnuRegExCharReplace.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>546, 292</value>
   </data>
@@ -1247,7 +1055,4 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Suchen und Ersetzen</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-</root>
+</root>

@@ -153,7 +153,7 @@ namespace ScintillaNET_FindReplaceDialog
                 }
                 catch (ArgumentException ex)
                 {
-                    lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                    lblStatus.Text = Properties.Resources.FindReplace_Status_ErrorInRegex + ex.Message;
                     return;
                 }
 
@@ -197,7 +197,7 @@ namespace ScintillaNET_FindReplaceDialog
 
             #endregion
 
-            lblStatus.Text = "Total found: " + foundCount.ToString();
+            lblStatus.Text = Properties.Resources.FindReplace_Status_TotalFound + foundCount.ToString();
         }
 
         private void btnFindNext_Click(object sender, EventArgs e)
@@ -230,7 +230,7 @@ namespace ScintillaNET_FindReplaceDialog
                 }
                 catch (ArgumentException ex)
                 {
-                    lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                    lblStatus.Text = Properties.Resources.FindReplace_Status_ErrorInRegex + ex.Message;
                     return;
                 }
 
@@ -276,7 +276,7 @@ namespace ScintillaNET_FindReplaceDialog
 
             #endregion
 
-            lblStatus.Text = "Total Replaced: " + foundCount.ToString();
+            lblStatus.Text = Properties.Resources.FindReplace_Status_TotalReplaced + foundCount.ToString();
         }
 
         private void btnReplaceNext_Click(object sender, EventArgs e)
@@ -299,22 +299,22 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = Properties.Resources.FindReplace_Status_ErrorInRegex + ex.Message;
                 return;
             }
 
             if (nextRange.cpMin == nextRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = Properties.Resources.FindReplace_Status_MatchNotFound;
             }
             else
             {
                 if (nextRange.cpMin > _scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionR.Checked)
-                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningSelection;
                     else
-                        lblStatus.Text = "Search match wrapped to the beginning of the document";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningDocument;
                 }
 
                 _scintilla.SetSel(nextRange.cpMin, nextRange.cpMax);
@@ -358,40 +358,49 @@ namespace ScintillaNET_FindReplaceDialog
 
         private void cmdRecentFindF_Click(object sender, EventArgs e)
         {
-            mnuRecentFindF.Items.Clear();
-            foreach (var item in MruFind)
+            while (mnuRecentFindF.Items.Count > 2)
             {
-                ToolStripItem newItem = mnuRecentFindF.Items.Add(item);
-                newItem.Tag = item;
+                mnuRecentFindF.Items.RemoveAt(0);
             }
-            mnuRecentFindF.Items.Add("-");
-            mnuRecentFindF.Items.Add("Clear History");
+            for (int i = 0; i < MruFind.Count; i++)
+            {
+                var item = MruFind[i];
+                ToolStripItem newItem = new ToolStripMenuItem(item);
+                newItem.Tag = item;
+                mnuRecentFindF.Items.Insert(i, newItem);
+            }
             mnuRecentFindF.Show(cmdRecentFindF.PointToScreen(cmdRecentFindF.ClientRectangle.Location));
         }
 
         private void cmdRecentFindR_Click(object sender, EventArgs e)
         {
-            mnuRecentFindR.Items.Clear();
-            foreach (var item in MruFind)
+            while (mnuRecentFindR.Items.Count > 2)
             {
-                ToolStripItem newItem = mnuRecentFindR.Items.Add(item);
-                newItem.Tag = item;
+                mnuRecentFindR.Items.RemoveAt(0);
             }
-            mnuRecentFindR.Items.Add("-");
-            mnuRecentFindR.Items.Add("Clear History");
+            for (var i = 0; i < MruFind.Count; i++)
+            {
+                var item = MruFind[i];
+                ToolStripItem newItem = new ToolStripMenuItem(item);
+                newItem.Tag = item;
+                mnuRecentFindR.Items.Insert(i, newItem);
+            }
             mnuRecentFindR.Show(cmdRecentFindR.PointToScreen(cmdRecentFindR.ClientRectangle.Location));
         }
 
         private void cmdRecentReplace_Click(object sender, EventArgs e)
         {
-            mnuRecentReplace.Items.Clear();
-            foreach (var item in MruReplace)
+            while (mnuRecentReplace.Items.Count > 2)
             {
-                ToolStripItem newItem = mnuRecentReplace.Items.Add(item);
-                newItem.Tag = item;
+                mnuRecentReplace.Items.RemoveAt(0);
             }
-            mnuRecentReplace.Items.Add("-");
-            mnuRecentReplace.Items.Add("Clear History");
+            for (var i = 0; i < MruReplace.Count; i++)
+            {
+                var item = MruFind[i];
+                ToolStripItem newItem = new ToolStripMenuItem(item);
+                newItem.Tag = item;
+                mnuRecentReplace.Items.Insert(i, newItem);
+            }
             mnuRecentReplace.Show(cmdRecentReplace.PointToScreen(cmdRecentReplace.ClientRectangle.Location));
         }
 
@@ -532,22 +541,22 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = Properties.Resources.FindReplace_Status_ErrorInRegex + ex.Message;
                 return;
             }
 
             if (foundRange.cpMin == foundRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = Properties.Resources.FindReplace_Status_MatchNotFound;
             }
             else
             {
                 if (foundRange.cpMin < Scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionF.Checked)
-                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningSelection;
                     else
-                        lblStatus.Text = "Search match wrapped to the beginning of the document";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningDocument;
                 }
 
                 Scintilla.SetSel(foundRange.cpMin, foundRange.cpMax);
@@ -571,22 +580,22 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = Properties.Resources.FindReplace_Status_ErrorInRegex + ex.Message;
                 return;
             }
 
             if (foundRange.cpMin == foundRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = Properties.Resources.FindReplace_Status_MatchNotFound;
             }
             else
             {
                 if (foundRange.cpMin > Scintilla.CurrentPosition)
                 {
                     if (chkSearchSelectionF.Checked)
-                        lblStatus.Text = "Search match wrapped to the _end of the selection";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedEndSelection;
                     else
-                        lblStatus.Text = "Search match wrapped to the _end of the document";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedEndDocument;
                 }
 
                 Scintilla.SetSel(foundRange.cpMin, foundRange.cpMax);
@@ -750,22 +759,22 @@ namespace ScintillaNET_FindReplaceDialog
             }
             catch (ArgumentException ex)
             {
-                lblStatus.Text = "Error in Regular Expression: " + ex.Message;
+                lblStatus.Text = Properties.Resources.FindReplace_Status_ErrorInRegex + ex.Message;
                 return;
             }
 
             if (nextRange.cpMin == nextRange.cpMax)
             {
-                lblStatus.Text = "Match could not be found";
+                lblStatus.Text = Properties.Resources.FindReplace_Status_MatchNotFound;
             }
             else
             {
                 if (nextRange.cpMin < Scintilla.AnchorPosition)
                 {
                     if (chkSearchSelectionR.Checked)
-                        lblStatus.Text = "Search match wrapped to the beginning of the selection";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningSelection;
                     else
-                        lblStatus.Text = "Search match wrapped to the beginning of the document";
+                        lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningDocument;
                 }
 
                 Scintilla.SetSel(nextRange.cpMin, nextRange.cpMax);
@@ -1020,7 +1029,7 @@ namespace ScintillaNET_FindReplaceDialog
         private void mnuRecentFindF_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
             //Insert the string value held in the menu items Tag field (\t, \n, etc.)
-            if (e.ClickedItem.Text == "Clear History")
+            if (e.ClickedItem.Tag == null)
             {
                 MruFind.Clear();
             }
@@ -1033,7 +1042,7 @@ namespace ScintillaNET_FindReplaceDialog
         private void mnuRecentFindR_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
             //Insert the string value held in the menu items Tag field (\t, \n, etc.)
-            if (e.ClickedItem.Text == "Clear History")
+            if (e.ClickedItem.Tag == null)
             {
                 MruFind.Clear();
             }
@@ -1046,7 +1055,7 @@ namespace ScintillaNET_FindReplaceDialog
         private void mnuRecentReplace_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
             //Insert the string value held in the menu items Tag field (\t, \n, etc.)
-            if (e.ClickedItem.Text == "Clear History")
+            if (e.ClickedItem.Tag == null)
             {
                 MruReplace.Clear();
             }

@@ -118,52 +118,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\deletehs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="FindAllResults_ResultsLinePrefix" xml:space="preserve">
-    <value>Line {0}: </value>
+    <value>Zeile {0}: </value>
   </data>
   <data name="FindReplace_Status_ErrorInRegex" xml:space="preserve">
-    <value>Error in Regular Expression: </value>
+    <value>Fehler in Regulärem Ausdruck: </value>
   </data>
   <data name="FindReplace_Status_MatchNotFound" xml:space="preserve">
-    <value>Match could not be found</value>
+    <value>Suchbegriff nicht gefunden</value>
   </data>
   <data name="FindReplace_Status_MatchWrappedBeginningDocument" xml:space="preserve">
-    <value>Search match wrapped to the beginning of the document</value>
+    <value>Suche wurde am Anfang des Dokuments fortgesetzt</value>
   </data>
   <data name="FindReplace_Status_MatchWrappedBeginningSelection" xml:space="preserve">
-    <value>Search match wrapped to the beginning of the selection</value>
+    <value>Suche wurde am Anfang der Auswahl fortgesetzt</value>
   </data>
   <data name="FindReplace_Status_MatchWrappedEndDocument" xml:space="preserve">
-    <value>Search match wrapped to the end of the document</value>
+    <value>Suche wurde am Ende des Dokuments fortgesetzt</value>
   </data>
   <data name="FindReplace_Status_MatchWrappedEndSelection" xml:space="preserve">
-    <value>Search match wrapped to the end of the selection</value>
+    <value>Suche wurde am Ende der Auswahl fortgesetzt</value>
   </data>
   <data name="FindReplace_Status_TotalFound" xml:space="preserve">
-    <value>Total found: </value>
+    <value>Anzahl gefunden: </value>
   </data>
   <data name="FindReplace_Status_TotalReplaced" xml:space="preserve">
-    <value>Total replaced: </value>
-  </data>
-  <data name="GoToNextMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\gotonextmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GoToPreviousMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\gotopreviousmessage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Anzahl ersetzt: </value>
   </data>
   <data name="GoTo_Error_MustBeInRange" xml:space="preserve">
-    <value>Go to line # must be greater than 0 and less than {0}</value>
+    <value>Gehe zu Zeile # muss größer als 0 und kleiner als {0} sein</value>
   </data>
   <data name="GoTo_Error_MustBeNumeric" xml:space="preserve">
-    <value>Go to line # must be a numeric value</value>
-  </data>
-  <data name="LineColorHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\linecolorhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Gehe zu Zeile # muss ein numerischer Wert sein</value>
   </data>
 </root>

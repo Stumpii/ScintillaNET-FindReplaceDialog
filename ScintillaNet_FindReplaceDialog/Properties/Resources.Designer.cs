@@ -19,7 +19,7 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -77,6 +77,105 @@ namespace ScintillaNET_FindReplaceDialog.Properties {
             get {
                 object obj = ResourceManager.GetObject("DeleteHS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line {0}: .
+        /// </summary>
+        internal static string FindAllResults_ResultsLinePrefix {
+            get {
+                return ResourceManager.GetString("FindAllResults_ResultsLinePrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error in Regular Expression: .
+        /// </summary>
+        internal static string FindReplace_Status_ErrorInRegex {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_ErrorInRegex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match could not be found.
+        /// </summary>
+        internal static string FindReplace_Status_MatchNotFound {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_MatchNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search match wrapped to the beginning of the document.
+        /// </summary>
+        internal static string FindReplace_Status_MatchWrappedBeginningDocument {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_MatchWrappedBeginningDocument", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search match wrapped to the beginning of the selection.
+        /// </summary>
+        internal static string FindReplace_Status_MatchWrappedBeginningSelection {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_MatchWrappedBeginningSelection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search match wrapped to the end of the document.
+        /// </summary>
+        internal static string FindReplace_Status_MatchWrappedEndDocument {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_MatchWrappedEndDocument", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search match wrapped to the end of the selection.
+        /// </summary>
+        internal static string FindReplace_Status_MatchWrappedEndSelection {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_MatchWrappedEndSelection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total found: .
+        /// </summary>
+        internal static string FindReplace_Status_TotalFound {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_TotalFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total replaced: .
+        /// </summary>
+        internal static string FindReplace_Status_TotalReplaced {
+            get {
+                return ResourceManager.GetString("FindReplace_Status_TotalReplaced", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go to line # must be greater than 0 and less than {0}.
+        /// </summary>
+        internal static string GoTo_Error_MustBeInRange {
+            get {
+                return ResourceManager.GetString("GoTo_Error_MustBeInRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go to line # must be a numeric value.
+        /// </summary>
+        internal static string GoTo_Error_MustBeNumeric {
+            get {
+                return ResourceManager.GetString("GoTo_Error_MustBeNumeric", resourceCulture);
             }
         }
         
