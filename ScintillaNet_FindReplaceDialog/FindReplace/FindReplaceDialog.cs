@@ -559,6 +559,7 @@ namespace ScintillaNET_FindReplaceDialog
                         lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedBeginningDocument;
                 }
 
+                EnsureVisible(foundRange);
                 Scintilla.SetSel(foundRange.cpMin, foundRange.cpMax);
                 MoveFormAwayFromSelection();
             }
@@ -598,8 +599,17 @@ namespace ScintillaNET_FindReplaceDialog
                         lblStatus.Text = Properties.Resources.FindReplace_Status_MatchWrappedEndDocument;
                 }
 
+                EnsureVisible(foundRange);
                 Scintilla.SetSel(foundRange.cpMin, foundRange.cpMax);
                 MoveFormAwayFromSelection();
+            }
+        }
+
+        private void EnsureVisible(CharacterRange range) {
+            var startLine = Scintilla.LineFromPosition(range.cpMin);
+            var endLine = Scintilla.LineFromPosition(range.cpMax);
+            for (int line = startLine; line <= endLine; line++) {
+                Scintilla.Lines[line].EnsureVisible();
             }
         }
 

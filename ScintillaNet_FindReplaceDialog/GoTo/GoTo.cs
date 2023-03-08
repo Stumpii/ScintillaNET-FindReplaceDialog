@@ -22,7 +22,9 @@ namespace ScintillaNET_FindReplaceDialog
 
 		public void Line(int number)
 		{
-			_scintilla.Lines[number].Goto();
+			Line line = _scintilla.Lines[number];
+			line.EnsureVisible();
+			line.Goto();
 		}
 
 		public void Position(int pos)
