@@ -713,7 +713,13 @@ namespace ScintillaNET_FindReplaceDialog
 			_lastReplaceHighlight = Highlight;
 
 			string text = _scintilla.GetTextRange(rangeToSearch.cpMin, rangeToSearch.cpMax - rangeToSearch.cpMin + 1);
-			findExpression.Replace(text, new MatchEvaluator(ReplaceAllEvaluator));
+			string newText = findExpression.Replace(text, new MatchEvaluator(ReplaceAllEvaluator));
+
+			// Optimization: if we don't need markers or highlights, we can replace all the text at once
+			if (!Mark && !Highlight) {
+				_scintilla.SetTargetRange(rangeToSearch.cpMin, rangeToSearch.cpMax);
+				_scintilla.ReplaceTarget(newText);
+			}
 
 			_scintilla.EndUndoAction();
 
@@ -917,37 +923,42 @@ namespace ScintillaNET_FindReplaceDialog
 		{
 			//	So this method is called for every match
 
+			_lastReplaceCount++;
+			
 			//	We make a replacement in the range based upon
 			//	the match range.
 			string replacement = m.Result(_lastReplaceAllReplaceString);
-			int start = _lastReplaceAllRangeToSearch.cpMin + m.Index + _lastReplaceAllOffset;
-			int end = start + m.Length;
 
-			CharacterRange r = new CharacterRange(start, end);
-			_lastReplaceCount++;
-			_scintilla.SelectionStart = r.cpMin;
-			_scintilla.SelectionEnd = r.cpMax;
-			_scintilla.ReplaceSelection(replacement);
+			// If we need no markers or highlights, don't do the replacement here, but all at once above.
+			if (_lastReplaceMark || _lastReplaceHighlight) {
+				int start = _lastReplaceAllRangeToSearch.cpMin + m.Index + _lastReplaceAllOffset;
+				int end = start + m.Length;
 
-			if (_lastReplaceMark)
-			{
-				//	We can of course have multiple instances of a find on a single
-				//	line. We don't want to mark this line more than once.
-				// TODO - Is determining the current line any more efficient that just setting the duplicate marker? LineFromPosition appears to have more code that MarkerAdd!
-				Line line = new Line(_scintilla, _scintilla.LineFromPosition(r.cpMin));
-				if (line.Position > _lastReplaceLastLine)
-					line.MarkerAdd(_marker.Index);
-				_lastReplaceLastLine = line.Position;
+				CharacterRange r = new CharacterRange(start, end);
+				_scintilla.SelectionStart = r.cpMin;
+				_scintilla.SelectionEnd = r.cpMax;
+				_scintilla.ReplaceSelection(replacement);
+
+				if (_lastReplaceMark)
+				{
+					//	We can of course have multiple instances of a find on a single
+					//	line. We don't want to mark this line more than once.
+					// TODO - Is determining the current line any more efficient that just setting the duplicate marker? LineFromPosition appears to have more code that MarkerAdd!
+					Line line = new Line(_scintilla, _scintilla.LineFromPosition(r.cpMin));
+					if (line.Position > _lastReplaceLastLine)
+						line.MarkerAdd(_marker.Index);
+					_lastReplaceLastLine = line.Position;
+				}
+				if (_lastReplaceHighlight)
+				{
+					_scintilla.IndicatorFillRange(r.cpMin, r.cpMax - r.cpMin);
+				}
+
+				//	But because we've modified the document, the RegEx
+				//	match ranges are going to be different from the
+				//	document ranges. We need to compensate
+				_lastReplaceAllOffset += replacement.Length - m.Value.Length;
 			}
-			if (_lastReplaceHighlight)
-			{
-				_scintilla.IndicatorFillRange(r.cpMin, r.cpMax - r.cpMin);
-			}
-
-			//	But because we've modified the document, the RegEx
-			//	match ranges are going to be different from the
-			//	document ranges. We need to compensate
-			_lastReplaceAllOffset += replacement.Length - m.Value.Length;
 
 			return replacement;
 		}
