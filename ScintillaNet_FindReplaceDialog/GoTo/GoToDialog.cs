@@ -32,7 +32,9 @@ namespace ScintillaNET_FindReplaceDialog
                     err.SetError(txtGotoLine, string.Format(Properties.Resources.GoTo_Error_MustBeInRange, _maximumLineNumber + 1));
                 else
                 {
-                    _scintilla.Lines[_gotoLineNumber].Goto();
+                    Line line = _scintilla.Lines[_gotoLineNumber];
+                    line.EnsureVisible();
+                    line.Goto();
                     //Line(GotoLineNumber);
                     this.Hide();
                     //DialogResult = DialogResult.OK;
