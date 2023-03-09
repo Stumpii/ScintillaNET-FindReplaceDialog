@@ -42,7 +42,7 @@ namespace ScintillaNET_FindReplaceDialog
 			gd.Scintilla = _scintilla;
 
 			if (!_window.Visible)
-				_window.Show(_scintilla.FindForm());
+				_window.ShowDialog(_scintilla.FindForm());
 
 			//_window.ShowDialog(_scintilla.FindForm());
 			//_window.Show(_scintilla.FindForm());
