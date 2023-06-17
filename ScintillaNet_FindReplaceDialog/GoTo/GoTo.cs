@@ -12,6 +12,7 @@ namespace ScintillaNET_FindReplaceDialog
 	{
 		private Scintilla _scintilla;
 		private GoToDialog _window;
+		private int _startingLineIndex = 0;
 
 		#region Methods
 
@@ -37,8 +38,9 @@ namespace ScintillaNET_FindReplaceDialog
 			//GoToDialog gd = new GoToDialog();
 			GoToDialog gd = _window;
 
-			gd.CurrentLineNumber = _scintilla.CurrentLine;
-			gd.MaximumLineNumber = _scintilla.Lines.Count;
+			// CurrentLine is 0 based
+			gd.CurrentLineNumber = _scintilla.CurrentLine + _startingLineIndex; 
+			gd.MaximumLineNumber = _scintilla.Lines.Count + _startingLineIndex; // TODO Add 1?
 			gd.Scintilla = _scintilla;
 
 			if (!_window.Visible)
@@ -62,12 +64,20 @@ namespace ScintillaNET_FindReplaceDialog
 
 		protected virtual GoToDialog CreateWindowInstance()
 		{
-			return new GoToDialog();
+			return new GoToDialog(_startingLineIndex);
 		}
 
 		public GoTo(Scintilla scintilla)
 		{
 			_scintilla = scintilla;
+
+			// Get the first line number's margin text
+			if (!string.IsNullOrEmpty(_scintilla.Lines[0].MarginText))
+			{
+				_startingLineIndex = int.Parse(_scintilla.Lines[0].MarginText);
+				_startingLineIndex = _startingLineIndex > 1 ? _startingLineIndex - 1 : 0;
+			}
+
 			_window = CreateWindowInstance();
 			_window.Scintilla = scintilla;
 		}
