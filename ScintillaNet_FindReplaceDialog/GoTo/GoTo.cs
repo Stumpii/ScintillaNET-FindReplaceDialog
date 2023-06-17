@@ -54,7 +54,7 @@ namespace ScintillaNET_FindReplaceDialog
 			//gd.ShowDialog();
 			//gd.Show();
 
-			//_scintilla.Focus();
+			_scintilla.Focus();
 		}
 
 		#endregion Methods
