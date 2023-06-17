@@ -95,7 +95,7 @@
 
                 if (startLine == endLine)
                 {
-	                string resultsLinePrefix = string.Format(Properties.Resources.FindAllResults_ResultsLinePrefix, startLine + _startingLineNumber);
+	                string resultsLinePrefix = string.Format("Line {0}: ", startLine + _startingLineNumber);
 
 	                FindResultsScintilla.AppendText(string.Format("{0}{1}", resultsLinePrefix, Scintilla.Lines[startLine].Text));
                 }
