@@ -53,7 +53,7 @@
 	            
 	            // Is the number margin setup?
 	            if (string.IsNullOrEmpty(_scintilla?.Lines[0].MarginText))
-		            _startingLineNumber = 0;
+		            _startingLineNumber = 1;
 	            else
 		            _startingLineNumber = int.Parse(_scintilla.Lines[0].MarginText);
             }
