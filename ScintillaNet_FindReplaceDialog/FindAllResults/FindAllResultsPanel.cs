@@ -17,7 +17,7 @@
 
         private List<ScintillaNET_FindReplaceDialog.CharacterRange> _findAllResults;
         private Scintilla _scintilla;
-        private int? _startingLineNumber;
+        private int _startingLineNumber;
 
         #endregion Fields
 
@@ -51,9 +51,9 @@
             {
 	            _scintilla = value;
 	            
-	            // Get the first line number's margin text
+	            // Is the number margin setup?
 	            if (string.IsNullOrEmpty(_scintilla?.Lines[0].MarginText))
-		            _startingLineNumber = null;
+		            _startingLineNumber = 0;
 	            else
 		            _startingLineNumber = int.Parse(_scintilla.Lines[0].MarginText);
             }
@@ -95,12 +95,9 @@
 
                 if (startLine == endLine)
                 {
-	                int lineNumber = _startingLineNumber.HasValue ? startLine + _startingLineNumber.Value : startLine;
+	                string resultsLinePrefix = string.Format(Properties.Resources.FindAllResults_ResultsLinePrefix, startLine + _startingLineNumber);
 
-	                string resultsLinePrefix = string.Format(Properties.Resources.FindAllResults_ResultsLinePrefix, lineNumber);
-
-	                FindResultsScintilla.AppendText(string.Format("{0}{1}",
-		                resultsLinePrefix, Scintilla.Lines[startLine].Text));
+	                FindResultsScintilla.AppendText(string.Format("{0}{1}", resultsLinePrefix, Scintilla.Lines[startLine].Text));
                 }
             }
 
