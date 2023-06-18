@@ -139,6 +139,11 @@ namespace ScintillaNET_FindReplaceDialog
         #endregion Properties
 
         #region Constructors
+        public GoToDialog()
+        {
+	        InitializeComponent();
+	        _startingLineIndex = 0;
+        }
 
         public GoToDialog(int startingLineIndex)
         {
