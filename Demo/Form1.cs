@@ -17,7 +17,9 @@ namespace Demo
 	{
 		private FindReplace MyFindReplace;
 		private int maxLineNumberCharLength;
-		private int customStartingLineNumber;
+
+		// The default line number is 1, anything else is a custom line number
+		private const int customStartingLineNumber = 8;
 
 		public Form1()
 		{
@@ -32,9 +34,7 @@ namespace Demo
 			incrementalSearcher1.FindReplace = MyFindReplace;
 
 			findAllResultsPanel1.Scintilla = scintilla1;
-			
-			// The default line number is 1, anything else is a custom line number
-			customStartingLineNumber = 8;
+
 			InitNumberMargin();
 		}
 
@@ -108,16 +108,7 @@ namespace Demo
 		}
 
 		#region Line Numbers
-		private void SetupNumberMargin()
-		{
-			// Line numbers can only customised by using a text margin rather than the default number margin
-			scintilla1.Margins[0].Type = MarginType.Text;
-
-			// Handle the Insert and Delete events so the line numbers can be customised
-			scintilla1.Insert += Scintilla_Insert;
-			scintilla1.Delete += Scintilla_Delete;
-		}
-
+		
 		private void Scintilla_Insert(object sender, ModificationEventArgs e)
 		{
 			// Only update line numbers if the number of lines changed
@@ -131,14 +122,24 @@ namespace Demo
 			if (e.LinesAdded != 0)
 				UpdateMarginLineNumbers(scintilla1.LineFromPosition(e.Position));
 		}
+
 		private void UpdateMarginLineNumbers(int startingAtIndex)
 		{
 			// Starting at the specified line index, update each
 			// subsequent line margin text with the offset.
-			for (int i = startingAtIndex; i < scintilla1.Lines.Count; i++)
+			for (int i = 0; i < scintilla1.Lines.Count; i++)
 			{
 				scintilla1.Lines[i].MarginStyle = Style.LineNumber;
 				scintilla1.Lines[i].MarginText = (i + customStartingLineNumber).ToString();
+			}
+		}
+
+		private void ResetNumberMargin()
+		{
+			for (int i = 0; i < scintilla1.Lines.Count; i++) // Count - 1?
+			{
+				scintilla1.Lines[i].MarginStyle = Style.LineNumber;
+				scintilla1.Lines[i].MarginText = string.Empty;
 			}
 		}
 
@@ -171,17 +172,29 @@ namespace Demo
 			// Handle the text changed event to ensure the line numbers can fit in the number margin
 			this.scintilla1.TextChanged += Scintilla_TextChanged;
 
+			// Handle the Insert and Delete events so the line numbers can be customised
+			scintilla1.Insert += Scintilla_Insert;
+			scintilla1.Delete += Scintilla_Delete;
+
 			// Set the defaults	for the number margin			
 			scintilla1.Margins[0].Width = 30;
 			scintilla1.Margins[0].Type = MarginType.Number;
 			scintilla1.Margins[0].Sensitive = true;
 			scintilla1.Margins[0].Mask = 0;
 
-			SetupNumberMargin();
-			UpdateMarginLineNumbers(0);
-
+			// Line numbers can only customised by using a text margin rather than the default number margin
+			scintilla1.Margins[0].Type = MarginType.Text;
+			
 			// Light Theme - use defaults by not setting anything
 			scintilla1.Styles[Style.LineNumber].ForeColor = Color.CadetBlue;
+		}
+
+		private void EnableCustomLineNumber_CheckedChanged(object sender, EventArgs e)
+		{
+			if (enableCustomLineNumber.Checked)
+				UpdateMarginLineNumbers(customStartingLineNumber);
+			else
+				ResetNumberMargin();
 		}
 	}
 }
