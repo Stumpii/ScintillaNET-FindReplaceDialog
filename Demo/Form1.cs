@@ -17,9 +17,12 @@ namespace Demo
 	{
 		private FindReplace MyFindReplace;
 		private int maxLineNumberCharLength;
+		private int previousNumberMarginWidth;
 
-		// The default line number is 1, anything else is a custom line number
-		private const int customStartingLineNumber = 8;
+        // The default line number is 1, anything else is a custom line number
+		private const int CustomStartingLineNumber = 8;
+        private const int DefaultStartingLineIndex = 0;
+        private const int DefaultNumberMarginWidth = 30;
 
 		public Form1()
 		{
@@ -125,31 +128,24 @@ namespace Demo
 
 		private void UpdateMarginLineNumbers(int startingAtIndex)
 		{
-			// Starting at the specified line index, update each
+            // Starting at the specified line index, update each
 			// subsequent line margin text with the offset.
-			for (int i = 0; i < scintilla1.Lines.Count; i++)
+            for (int i = startingAtIndex; i < scintilla1.Lines.Count; i++)
 			{
 				scintilla1.Lines[i].MarginStyle = Style.LineNumber;
-				scintilla1.Lines[i].MarginText = (i + customStartingLineNumber).ToString();
+				scintilla1.Lines[i].MarginText = (i + CustomStartingLineNumber).ToString();
 			}
 		}
 
-		private void ResetNumberMargin()
-		{
-			for (int i = 0; i < scintilla1.Lines.Count; i++) // Count - 1?
-			{
-				scintilla1.Lines[i].MarginStyle = Style.LineNumber;
-				scintilla1.Lines[i].MarginText = string.Empty;
-			}
-		}
-
-		private void Scintilla_TextChanged(object sender, EventArgs e)
+        private void Scintilla_TextChanged(object sender, EventArgs e)
 		{
 			// Adjust the width of the number margin to allow the line numbers to fit in the number margin
+            int lineCount = scintilla1.Lines.Count;
 
-			int lineCount = customStartingLineNumber + scintilla1.Lines.Count;
+            if (enableCustomLineNumber.Checked)
+                lineCount += CustomStartingLineNumber;
 
-			// Did the number of characters in the line number display change?
+            // Did the number of characters in the line number display change?
 			// i.e. nnn VS nn, or nnnn VS nn, etc...
 
 			// First find the number of digits\characters in the line count
@@ -176,25 +172,34 @@ namespace Demo
 			scintilla1.Insert += Scintilla_Insert;
 			scintilla1.Delete += Scintilla_Delete;
 
-			// Set the defaults	for the number margin			
-			scintilla1.Margins[0].Width = 30;
-			scintilla1.Margins[0].Type = MarginType.Number;
+			// Set the defaults	for the number margin
+            scintilla1.Margins[0].Type = MarginType.Number;
 			scintilla1.Margins[0].Sensitive = true;
 			scintilla1.Margins[0].Mask = 0;
-
+			
 			// Line numbers can only customised by using a text margin rather than the default number margin
 			scintilla1.Margins[0].Type = MarginType.Text;
 			
 			// Light Theme - use defaults by not setting anything
 			scintilla1.Styles[Style.LineNumber].ForeColor = Color.CadetBlue;
-		}
+
+            UpdateMarginLineNumbers(DefaultStartingLineIndex);
+        }
 
 		private void EnableCustomLineNumber_CheckedChanged(object sender, EventArgs e)
 		{
-			if (enableCustomLineNumber.Checked)
-				UpdateMarginLineNumbers(customStartingLineNumber);
-			else
-				ResetNumberMargin();
-		}
+			// Show the number margin?
+            if (enableCustomLineNumber.Checked)
+            {
+                // Show the number margin
+                scintilla1.Margins[0].Width = previousNumberMarginWidth == 0 ? DefaultNumberMarginWidth : previousNumberMarginWidth;
+            }
+            else
+            {
+				// Hide the number margin
+                previousNumberMarginWidth = scintilla1.Margins[0].Width;
+                scintilla1.Margins[0].Width = 0;
+            }
+        }
 	}
 }
