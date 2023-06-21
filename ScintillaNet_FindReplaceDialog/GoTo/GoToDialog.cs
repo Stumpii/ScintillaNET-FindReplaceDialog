@@ -17,6 +17,7 @@ namespace ScintillaNET_FindReplaceDialog
         private int _currentLineNumber;
         private int _maximumLineNumber;
         private int _gotoLineNumber;
+        private readonly int _startingLineIndex;
 
         #endregion Fields
 
@@ -32,7 +33,7 @@ namespace ScintillaNET_FindReplaceDialog
                     err.SetError(txtGotoLine, string.Format(Properties.Resources.GoTo_Error_MustBeInRange, _maximumLineNumber + 1));
                 else
                 {
-                    Line line = _scintilla.Lines[_gotoLineNumber];
+	                Line line = _scintilla.Lines[_gotoLineNumber - _startingLineIndex];
                     line.EnsureVisible();
                     line.Goto();
                     //Line(GotoLineNumber);
@@ -138,10 +139,16 @@ namespace ScintillaNET_FindReplaceDialog
         #endregion Properties
 
         #region Constructors
-
         public GoToDialog()
         {
+	        InitializeComponent();
+	        _startingLineIndex = 0;
+        }
+
+        public GoToDialog(int startingLineIndex)
+        {
             InitializeComponent();
+            _startingLineIndex = startingLineIndex;
         }
 
         #endregion Constructors
