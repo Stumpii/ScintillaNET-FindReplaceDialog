@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkEcmaScriptF.Text" xml:space="preserve">
+    <value>ECMA Script</value>
+  </data>
+  <data name="chkEcmaScriptR.Text" xml:space="preserve">
+    <value>ECMA Script</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindF.Text" xml:space="preserve">
+    <value>Verlauf &amp;löschen</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindR.Text" xml:space="preserve">
+    <value>Verlauf &amp;löschen</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemReplace.Text" xml:space="preserve">
+    <value>Verlauf &amp;löschen</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdRecentFindF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdRecentFindF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 5</value>
+  </data>
+  <data name="cmdRecentFindF.ToolTip" xml:space="preserve">
+    <value>Eine Liste der letzten Suchen anzeigen</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>xxx</value>
+  </data>
+  <data name="txtFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 21</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 5</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.ToolTip" xml:space="preserve">
+    <value>Eine Liste erweiterter Zeichen anzeigen</value>
+  </data>
+  <data name="rdoExtendedF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoExtendedF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="rdoExtendedF.Text" xml:space="preserve">
+    <value>Erweitert (\n, \r, \t, \0)</value>
+  </data>
+  <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>&amp;Löschen</value>
+  </data>
+  <data name="btnFindAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFindAll.Text" xml:space="preserve">
+    <value>&amp;Alle suchen</value>
+  </data>
+  <data name="chkHighlightMatches.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkHighlightMatches.Text" xml:space="preserve">
+    <value>Treffer &amp;markieren</value>
+  </data>
+  <data name="chkMarkLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMarkLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="chkMarkLine.Text" xml:space="preserve">
+    <value>&amp;Zeile markieren</value>
+  </data>
+  <data name="grpFindAll.Text" xml:space="preserve">
+    <value>Alle suchen</value>
+  </data>
+  <data name="chkSearchSelectionF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSearchSelectionF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="chkSearchSelectionF.Text" xml:space="preserve">
+    <value>In Auswahl suchen</value>
+  </data>
+  <data name="chkWrapF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWrapF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="chkWrapF.Text" xml:space="preserve">
+    <value>Am Ende von &amp;vorne beginnen</value>
+  </data>
+  <data name="btnFindPreviousF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFindPreviousF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 188</value>
+  </data>
+  <data name="btnFindPreviousF.Text" xml:space="preserve">
+    <value>&amp;Rückwärts suchen</value>
+  </data>
+  <data name="btnFindNextF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFindNextF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 212</value>
+  </data>
+  <data name="btnFindNextF.Text" xml:space="preserve">
+    <value>&amp;Weitersuchen</value>
+  </data>
+  <data name="chkWordStartF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWordStartF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="chkWordStartF.Text" xml:space="preserve">
+    <value>W&amp;ortanfang</value>
+  </data>
+  <data name="chkWholeWordF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWholeWordF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="chkWholeWordF.Text" xml:space="preserve">
+    <value>Ganzes Wor&amp;t</value>
+  </data>
+  <data name="chkMatchCaseF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMatchCaseF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="chkMatchCaseF.Text" xml:space="preserve">
+    <value>Groß-/Kleinschreibung &amp;beachten</value>
+  </data>
+  <data name="pnlStandardOptionsF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 57</value>
+  </data>
+  <data name="chkSinglelineF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSinglelineF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chkSinglelineF.Text" xml:space="preserve">
+    <value>Einzeilig</value>
+  </data>
+  <data name="chkRightToLeftF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRightToLeftF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="chkRightToLeftF.Text" xml:space="preserve">
+    <value>Rechts nach links</value>
+  </data>
+  <data name="chkMultilineF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMultilineF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="chkMultilineF.Text" xml:space="preserve">
+    <value>Mehrzeilig</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.Text" xml:space="preserve">
+    <value>Leerraum i&amp;gnorieren</value>
+  </data>
+  <data name="chkIgnoreCaseF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIgnoreCaseF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="chkIgnoreCaseF.Text" xml:space="preserve">
+    <value>Groß/Klein &amp;ignorieren</value>
+  </data>
+  <data name="chkExplicitCaptureF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkExplicitCaptureF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="chkExplicitCaptureF.Text" xml:space="preserve">
+    <value>E&amp;xplizite Erfassung</value>
+  </data>
+  <data name="chkEcmaScriptF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCultureInvariantF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCultureInvariantF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="chkCultureInvariantF.Text" xml:space="preserve">
+    <value>Invariante K&amp;ultur</value>
+  </data>
+  <data name="chkCompiledF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCompiledF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="chkCompiledF.Text" xml:space="preserve">
+    <value>&amp;Kompiliert</value>
+  </data>
+  <data name="pnlRegexpOptionsF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 57</value>
+  </data>
+  <data name="grpOptionsF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 77</value>
+  </data>
+  <data name="grpOptionsF.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="lblSearchTypeF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchTypeF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblSearchTypeF.Text" xml:space="preserve">
+    <value>Suchtyp</value>
+  </data>
+  <data name="rdoRegexF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoRegexF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="rdoRegexF.Text" xml:space="preserve">
+    <value>Regul&amp;ärer Ausdruck</value>
+  </data>
+  <data name="rdoStandardF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoStandardF.Text" xml:space="preserve">
+    <value>Stan&amp;dard</value>
+  </data>
+  <data name="lblFindF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblFindF.Text" xml:space="preserve">
+    <value>&amp;Suchen</value>
+  </data>
+  <data name="tpgFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>538, 244</value>
+  </data>
+  <data name="tpgFind.Text" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="btnFindNextR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFindNextR.Text" xml:space="preserve">
+    <value>Weitersuchen</value>
+  </data>
+  <data name="btnFindPreviousR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFindPreviousR.Text" xml:space="preserve">
+    <value>Rückwärts suchen</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.ToolTip" xml:space="preserve">
+    <value>Eine Liste erweiterter Zeichen anzeigen</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.ToolTip" xml:space="preserve">
+    <value>Eine Liste erweiterter Zeichen anzeigen</value>
+  </data>
+  <data name="rdoExtendedR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoExtendedR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="rdoExtendedR.Text" xml:space="preserve">
+    <value>Erweitert (\n, \r, \t, \0)</value>
+  </data>
+  <data name="btnReplaceAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReplaceAll.Text" xml:space="preserve">
+    <value>&amp;Alle ersetzen</value>
+  </data>
+  <data name="lblReplace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblReplace.Text" xml:space="preserve">
+    <value>&amp;Ersetzen</value>
+  </data>
+  <data name="chkSearchSelectionR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSearchSelectionR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="chkSearchSelectionR.Text" xml:space="preserve">
+    <value>In Auswahl suchen</value>
+  </data>
+  <data name="chkWrapR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWrapR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="chkWrapR.Text" xml:space="preserve">
+    <value>Am Ende von &amp;vorne beginnen</value>
+  </data>
+  <data name="btnReplacePrevious.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReplacePrevious.Text" xml:space="preserve">
+    <value>&amp;Rückwärts ersetzen</value>
+  </data>
+  <data name="btnReplaceNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReplaceNext.Text" xml:space="preserve">
+    <value>&amp;Weiter ersetzen</value>
+  </data>
+  <data name="chkWordStartR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWordStartR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="chkWordStartR.Text" xml:space="preserve">
+    <value>W&amp;ortanfang</value>
+  </data>
+  <data name="chkWholeWordR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWholeWordR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="chkWholeWordR.Text" xml:space="preserve">
+    <value>Ganzes Wor&amp;t</value>
+  </data>
+  <data name="chkMatchCaseR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMatchCaseR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="chkMatchCaseR.Text" xml:space="preserve">
+    <value>Groß-/Kleinschreibung &amp;beachten</value>
+  </data>
+  <data name="chkSinglelineR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSinglelineR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chkSinglelineR.Text" xml:space="preserve">
+    <value>Einzeilig</value>
+  </data>
+  <data name="chkRightToLeftR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRightToLeftR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="chkRightToLeftR.Text" xml:space="preserve">
+    <value>Rechts nach links</value>
+  </data>
+  <data name="chkMultilineR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMultilineR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="chkMultilineR.Text" xml:space="preserve">
+    <value>Mehrzeilig</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.Text" xml:space="preserve">
+    <value>Leerraum i&amp;gnorieren</value>
+  </data>
+  <data name="chkIgnoreCaseR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIgnoreCaseR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="chkIgnoreCaseR.Text" xml:space="preserve">
+    <value>Groß/Klein &amp;ignorieren</value>
+  </data>
+  <data name="chkExplicitCaptureR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkExplicitCaptureR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="chkExplicitCaptureR.Text" xml:space="preserve">
+    <value>E&amp;xplizite Erfassung</value>
+  </data>
+  <data name="chkEcmaScriptR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCultureInvariantR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCultureInvariantR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="chkCultureInvariantR.Text" xml:space="preserve">
+    <value>Invariante K&amp;ultur</value>
+  </data>
+  <data name="chkCompiledR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCompiledR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="chkCompiledR.Text" xml:space="preserve">
+    <value>&amp;Kompiliert</value>
+  </data>
+  <data name="grdOptionsR.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="lblSearchTypeR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchTypeR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblSearchTypeR.Text" xml:space="preserve">
+    <value>Suchtyp</value>
+  </data>
+  <data name="rdoRegexR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoRegexR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="rdoRegexR.Text" xml:space="preserve">
+    <value>Regul&amp;ärer Ausdruck</value>
+  </data>
+  <data name="rdoStandardR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoStandardR.Text" xml:space="preserve">
+    <value>Stan&amp;dard</value>
+  </data>
+  <data name="lblFindR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblFindR.Text" xml:space="preserve">
+    <value>&amp;Suchen</value>
+  </data>
+  <data name="cmdRecentReplace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdRecentReplace.ToolTip" xml:space="preserve">
+    <value>Eine Liste der letzten Suchen anzeigen</value>
+  </data>
+  <data name="cmdRecentFindR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdRecentFindR.ToolTip" xml:space="preserve">
+    <value>Eine Liste der letzten Suchen anzeigen</value>
+  </data>
+  <data name="tpgReplace.Text" xml:space="preserve">
+    <value>Ersetzen</value>
+  </data>
+  <data name="tabAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>546, 270</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>546, 22</value>
+  </data>
+  <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem13.Text" xml:space="preserve">
+    <value>\r\n Windows-Zeilenumbruch</value>
+  </data>
+  <data name="nNewLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="nNewLineToolStripMenuItem.Text" xml:space="preserve">
+    <value>\n Zeilenvorschub</value>
+  </data>
+  <data name="rCarriageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="rCarriageToolStripMenuItem.Text" xml:space="preserve">
+    <value>\r Wagenrücklauf</value>
+  </data>
+  <data name="tTabToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="tTabToolStripMenuItem1.Text" xml:space="preserve">
+    <value>\t Tabulator</value>
+  </data>
+  <data name="nullCharactorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="nullCharactorToolStripMenuItem.Text" xml:space="preserve">
+    <value>\0 Null-Zeichen</value>
+  </data>
+  <data name="mnuExtendedCharFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 114</value>
+  </data>
+  <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem14.Text" xml:space="preserve">
+    <value>\r\n Windows-Zeilenumbruch</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>\n Zeilenvorschub</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>\r Wagenrücklauf</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>\t Tabulator</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>\0 Null-Zeichen</value>
+  </data>
+  <data name="mnuExtendedCharFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 114</value>
+  </data>
+  <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem15.Text" xml:space="preserve">
+    <value>\r\n Windows-Zeilenumbruch</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>\n Zeilenvorschub</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem6.Text" xml:space="preserve">
+    <value>\r Wagenrücklauf</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem7.Text" xml:space="preserve">
+    <value>\t Tabulator</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="toolStripMenuItem8.Text" xml:space="preserve">
+    <value>\0 Null-Zeichen</value>
+  </data>
+  <data name="mnuExtendedCharReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 114</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem9.Text" xml:space="preserve">
+    <value>. Beliebiges Zeichen</value>
+  </data>
+  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem10.Text" xml:space="preserve">
+    <value>\w Alphanumerisch (\W Nicht-Alphanumerisch)</value>
+  </data>
+  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem11.Text" xml:space="preserve">
+    <value>\d Ziffer (\D Nicht-Ziffer)</value>
+  </data>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem12.Text" xml:space="preserve">
+    <value>\s Leerraum (\S Nicht-Leerraum)</value>
+  </data>
+  <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem16.Text" xml:space="preserve">
+    <value>[a-zA-Z] Bestimmtes Set ([^a...] Nicht im Set)</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem25.Text" xml:space="preserve">
+    <value>\r\n Windows-Zeilenumbruch</value>
+  </data>
+  <data name="toolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem26.Text" xml:space="preserve">
+    <value>\n Zeilenvorschub</value>
+  </data>
+  <data name="toolStripMenuItem27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem27.Text" xml:space="preserve">
+    <value>\r Wagenrücklauf</value>
+  </data>
+  <data name="toolStripMenuItem28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem28.Text" xml:space="preserve">
+    <value>\t Tabulator</value>
+  </data>
+  <data name="toolStripMenuItem29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem29.Text" xml:space="preserve">
+    <value>\0 Null-Zeichen</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem17.Text" xml:space="preserve">
+    <value>* Beliebige Wiederholungen</value>
+  </data>
+  <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem18.Text" xml:space="preserve">
+    <value>+ Eine oder mehr Wiederholungen</value>
+  </data>
+  <data name="toolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem19.Text" xml:space="preserve">
+    <value>? Keine oder mehr Wiederholungen</value>
+  </data>
+  <data name="toolStripMenuItem22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem22.Text" xml:space="preserve">
+    <value>? So wenig wie möglich (d.h. *?, +? oder ??)</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem20.Text" xml:space="preserve">
+    <value>( ) Nummerierte Erfassung</value>
+  </data>
+  <data name="toolStripMenuItem21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem21.Text" xml:space="preserve">
+    <value>(?&lt;Name&gt;) Benannte Erfassung</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem23.Text" xml:space="preserve">
+    <value>^ Anfang des Strings oder der Zeile</value>
+  </data>
+  <data name="toolStripMenuItem24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem24.Text" xml:space="preserve">
+    <value>$ Ende des Strings oder der Zeile</value>
+  </data>
+  <data name="mnuRegExCharFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 424</value>
+  </data>
+  <data name="toolStripMenuItem30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem30.Text" xml:space="preserve">
+    <value>. Beliebiges Zeichen</value>
+  </data>
+  <data name="toolStripMenuItem31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem31.Text" xml:space="preserve">
+    <value>\w Alphanumerisch (\W Nicht-Alphanumerisch)</value>
+  </data>
+  <data name="toolStripMenuItem32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem32.Text" xml:space="preserve">
+    <value>\d Ziffer (\D Nicht-Ziffer)</value>
+  </data>
+  <data name="toolStripMenuItem33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem33.Text" xml:space="preserve">
+    <value>\s Leerraum (\S Nicht-Leerraum)</value>
+  </data>
+  <data name="toolStripMenuItem34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem34.Text" xml:space="preserve">
+    <value>[a-zA-Z] Bestimmtes Set ([^a...] Nicht im Set)</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem35.Text" xml:space="preserve">
+    <value>\r\n Windows-Zeilenumbruch</value>
+  </data>
+  <data name="toolStripMenuItem36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem36.Text" xml:space="preserve">
+    <value>\n Zeilenvorschub</value>
+  </data>
+  <data name="toolStripMenuItem37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem37.Text" xml:space="preserve">
+    <value>\r Wagenrücklauf</value>
+  </data>
+  <data name="toolStripMenuItem38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem38.Text" xml:space="preserve">
+    <value>\t Tabulator</value>
+  </data>
+  <data name="toolStripMenuItem39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem39.Text" xml:space="preserve">
+    <value>\0 Null-Zeichen</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem40.Text" xml:space="preserve">
+    <value>* Beliebige Wiederholungen</value>
+  </data>
+  <data name="toolStripMenuItem41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem41.Text" xml:space="preserve">
+    <value>+ Eine oder mehr Wiederholungen</value>
+  </data>
+  <data name="toolStripMenuItem42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem42.Text" xml:space="preserve">
+    <value>? Keine oder mehr Wiederholungen</value>
+  </data>
+  <data name="toolStripMenuItem43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem43.Text" xml:space="preserve">
+    <value>? So wenig wie möglich (d.h. *?, +? oder ??)</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem44.Text" xml:space="preserve">
+    <value>( ) Nummerierte Erfassung</value>
+  </data>
+  <data name="toolStripMenuItem45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem45.Text" xml:space="preserve">
+    <value>(?&lt;Name&gt;) Benannte Erfassung</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="toolStripMenuItem46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem46.Text" xml:space="preserve">
+    <value>^ Anfang des Strings oder der Zeile</value>
+  </data>
+  <data name="toolStripMenuItem47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="toolStripMenuItem47.Text" xml:space="preserve">
+    <value>$ Ende des Strings oder der Zeile</value>
+  </data>
+  <data name="mnuRegExCharFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 424</value>
+  </data>
+  <data name="toolStripMenuItem48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem48.Text" xml:space="preserve">
+    <value>$&amp;&amp; Gesamte Übereinstimmung</value>
+  </data>
+  <data name="toolStripMenuItem49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem49.Text" xml:space="preserve">
+    <value>$1 Nummerierte Gruppe #1</value>
+  </data>
+  <data name="toolStripMenuItem57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem57.Text" xml:space="preserve">
+    <value>$2 Nummerierte Gruppe #2</value>
+  </data>
+  <data name="toolStripMenuItem56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem56.Text" xml:space="preserve">
+    <value>$3 Nummerierte Gruppe #3</value>
+  </data>
+  <data name="toolStripMenuItem55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem55.Text" xml:space="preserve">
+    <value>$4 Nummerierte Gruppe #4</value>
+  </data>
+  <data name="toolStripMenuItem54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem54.Text" xml:space="preserve">
+    <value>$5 Nummerierte Gruppe #5</value>
+  </data>
+  <data name="toolStripMenuItem53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem53.Text" xml:space="preserve">
+    <value>$6 Nummerierte Gruppe #6</value>
+  </data>
+  <data name="toolStripMenuItem52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem52.Text" xml:space="preserve">
+    <value>$7 Nummerierte Gruppe #7</value>
+  </data>
+  <data name="toolStripMenuItem51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem51.Text" xml:space="preserve">
+    <value>$8 Nummerierte Gruppe #8</value>
+  </data>
+  <data name="toolStripMenuItem50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItem50.Text" xml:space="preserve">
+    <value>$9 Nummerierte Gruppe #9</value>
+  </data>
+  <data name="nameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="nameToolStripMenuItem.Text" xml:space="preserve">
+    <value>$(Name) Benannte Gruppe</value>
+  </data>
+  <data name="mnuRegExCharReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 246</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>546, 292</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>562, 331</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Suchen und Ersetzen</value>
+  </data>
+</root>

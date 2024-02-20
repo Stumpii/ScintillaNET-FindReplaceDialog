@@ -1,0 +1,3036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdRecentFindF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdRecentFindF.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdRecentFindF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 5</value>
+  </data>
+  <data name="cmdRecentFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdRecentFindF.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="cmdRecentFindF.ToolTip" xml:space="preserve">
+    <value>Show a list of recent search strings</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindF.Name" xml:space="preserve">
+    <value>cmdRecentFindF</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtFindF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtFindF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 6</value>
+  </data>
+  <data name="txtFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 21</value>
+  </data>
+  <data name="txtFindF.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtFindF.Name" xml:space="preserve">
+    <value>txtFindF</value>
+  </data>
+  <data name="&gt;&gt;txtFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFindF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;txtFindF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 5</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindF.ToolTip" xml:space="preserve">
+    <value>Show a list of extended characters</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindF.Name" xml:space="preserve">
+    <value>cmdExtCharAndRegExFindF</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdoExtendedF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoExtendedF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 71</value>
+  </data>
+  <data name="rdoExtendedF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 17</value>
+  </data>
+  <data name="rdoExtendedF.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rdoExtendedF.Text" xml:space="preserve">
+    <value>E&amp;xtended (\n, \r, \t, \0)</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedF.Name" xml:space="preserve">
+    <value>rdoExtendedF</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedF.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 37</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>C&amp;lear</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>grpFindAll</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFindAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="btnFindAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="btnFindAll.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnFindAll.Text" xml:space="preserve">
+    <value>Find &amp;All</value>
+  </data>
+  <data name="&gt;&gt;btnFindAll.Name" xml:space="preserve">
+    <value>btnFindAll</value>
+  </data>
+  <data name="&gt;&gt;btnFindAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindAll.Parent" xml:space="preserve">
+    <value>grpFindAll</value>
+  </data>
+  <data name="&gt;&gt;btnFindAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkHighlightMatches.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHighlightMatches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
+  </data>
+  <data name="chkHighlightMatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="chkHighlightMatches.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkHighlightMatches.Text" xml:space="preserve">
+    <value>&amp;Highlight Matches</value>
+  </data>
+  <data name="&gt;&gt;chkHighlightMatches.Name" xml:space="preserve">
+    <value>chkHighlightMatches</value>
+  </data>
+  <data name="&gt;&gt;chkHighlightMatches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHighlightMatches.Parent" xml:space="preserve">
+    <value>grpFindAll</value>
+  </data>
+  <data name="&gt;&gt;chkHighlightMatches.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkMarkLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMarkLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="chkMarkLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="chkMarkLine.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkMarkLine.Text" xml:space="preserve">
+    <value>&amp;Mark Line</value>
+  </data>
+  <data name="&gt;&gt;chkMarkLine.Name" xml:space="preserve">
+    <value>chkMarkLine</value>
+  </data>
+  <data name="&gt;&gt;chkMarkLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMarkLine.Parent" xml:space="preserve">
+    <value>grpFindAll</value>
+  </data>
+  <data name="&gt;&gt;chkMarkLine.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpFindAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 176</value>
+  </data>
+  <data name="grpFindAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 65</value>
+  </data>
+  <data name="grpFindAll.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="grpFindAll.Text" xml:space="preserve">
+    <value>Find All</value>
+  </data>
+  <data name="&gt;&gt;grpFindAll.Name" xml:space="preserve">
+    <value>grpFindAll</value>
+  </data>
+  <data name="&gt;&gt;grpFindAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFindAll.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;grpFindAll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkSearchSelectionF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSearchSelectionF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 71</value>
+  </data>
+  <data name="chkSearchSelectionF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="chkSearchSelectionF.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkSearchSelectionF.Text" xml:space="preserve">
+    <value>Search Selection</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionF.Name" xml:space="preserve">
+    <value>chkSearchSelectionF</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionF.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkWrapF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWrapF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 52</value>
+  </data>
+  <data name="chkWrapF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chkWrapF.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkWrapF.Text" xml:space="preserve">
+    <value>&amp;Wrap</value>
+  </data>
+  <data name="&gt;&gt;chkWrapF.Name" xml:space="preserve">
+    <value>chkWrapF</value>
+  </data>
+  <data name="&gt;&gt;chkWrapF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWrapF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;chkWrapF.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnFindPreviousF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnFindPreviousF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 188</value>
+  </data>
+  <data name="btnFindPreviousF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnFindPreviousF.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnFindPreviousF.Text" xml:space="preserve">
+    <value>Find &amp;Previous</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousF.Name" xml:space="preserve">
+    <value>btnFindPreviousF</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousF.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnFindNextF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnFindNextF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 212</value>
+  </data>
+  <data name="btnFindNextF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnFindNextF.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnFindNextF.Text" xml:space="preserve">
+    <value>Find &amp;Next</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextF.Name" xml:space="preserve">
+    <value>btnFindNextF</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextF.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="grpOptionsF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="chkWordStartF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWordStartF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 37</value>
+  </data>
+  <data name="chkWordStartF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="chkWordStartF.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkWordStartF.Text" xml:space="preserve">
+    <value>W&amp;ord Start</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartF.Name" xml:space="preserve">
+    <value>chkWordStartF</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartF.Parent" xml:space="preserve">
+    <value>pnlStandardOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkWholeWordF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWholeWordF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="chkWholeWordF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="chkWholeWordF.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkWholeWordF.Text" xml:space="preserve">
+    <value>Whole Wor&amp;d</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordF.Name" xml:space="preserve">
+    <value>chkWholeWordF</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordF.Parent" xml:space="preserve">
+    <value>pnlStandardOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkMatchCaseF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMatchCaseF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="chkMatchCaseF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="chkMatchCaseF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkMatchCaseF.Text" xml:space="preserve">
+    <value>Match &amp;Case</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseF.Name" xml:space="preserve">
+    <value>chkMatchCaseF</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseF.Parent" xml:space="preserve">
+    <value>pnlStandardOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlStandardOptionsF.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlStandardOptionsF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="pnlStandardOptionsF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 57</value>
+  </data>
+  <data name="pnlStandardOptionsF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsF.Name" xml:space="preserve">
+    <value>pnlStandardOptionsF</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsF.Parent" xml:space="preserve">
+    <value>grpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkSinglelineF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSinglelineF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 37</value>
+  </data>
+  <data name="chkSinglelineF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="chkSinglelineF.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkSinglelineF.Text" xml:space="preserve">
+    <value>Singleline</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineF.Name" xml:space="preserve">
+    <value>chkSinglelineF</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkRightToLeftF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkRightToLeftF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 20</value>
+  </data>
+  <data name="chkRightToLeftF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="chkRightToLeftF.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkRightToLeftF.Text" xml:space="preserve">
+    <value>Right To Left</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftF.Name" xml:space="preserve">
+    <value>chkRightToLeftF</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkMultilineF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMultilineF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 3</value>
+  </data>
+  <data name="chkMultilineF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="chkMultilineF.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkMultilineF.Text" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineF.Name" xml:space="preserve">
+    <value>chkMultilineF</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 37</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceF.Text" xml:space="preserve">
+    <value>I&amp;gnore Pattern Whitespace</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceF.Name" xml:space="preserve">
+    <value>chkIgnorePatternWhitespaceF</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceF.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkIgnoreCaseF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkIgnoreCaseF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="chkIgnoreCaseF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="chkIgnoreCaseF.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkIgnoreCaseF.Text" xml:space="preserve">
+    <value>&amp;Ignore Case</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseF.Name" xml:space="preserve">
+    <value>chkIgnoreCaseF</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkExplicitCaptureF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkExplicitCaptureF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 3</value>
+  </data>
+  <data name="chkExplicitCaptureF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="chkExplicitCaptureF.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkExplicitCaptureF.Text" xml:space="preserve">
+    <value>E&amp;xplicit Capture</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureF.Name" xml:space="preserve">
+    <value>chkExplicitCaptureF</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureF.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkEcmaScriptF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkEcmaScriptF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="chkEcmaScriptF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="chkEcmaScriptF.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkEcmaScriptF.Text" xml:space="preserve">
+    <value>ECMA Script</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptF.Name" xml:space="preserve">
+    <value>chkEcmaScriptF</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptF.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkCultureInvariantF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCultureInvariantF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="chkCultureInvariantF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="chkCultureInvariantF.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkCultureInvariantF.Text" xml:space="preserve">
+    <value>C&amp;ulture Invariant</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantF.Name" xml:space="preserve">
+    <value>chkCultureInvariantF</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantF.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkCompiledF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCompiledF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="chkCompiledF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="chkCompiledF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkCompiledF.Text" xml:space="preserve">
+    <value>&amp;Compiled</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledF.Name" xml:space="preserve">
+    <value>chkCompiledF</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledF.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledF.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pnlRegexpOptionsF.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlRegexpOptionsF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="pnlRegexpOptionsF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 57</value>
+  </data>
+  <data name="pnlRegexpOptionsF.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsF.Name" xml:space="preserve">
+    <value>pnlRegexpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsF.Parent" xml:space="preserve">
+    <value>grpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpOptionsF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 94</value>
+  </data>
+  <data name="grpOptionsF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 77</value>
+  </data>
+  <data name="grpOptionsF.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="grpOptionsF.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;grpOptionsF.Name" xml:space="preserve">
+    <value>grpOptionsF</value>
+  </data>
+  <data name="&gt;&gt;grpOptionsF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpOptionsF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;grpOptionsF.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblSearchTypeF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSearchTypeF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
+  </data>
+  <data name="lblSearchTypeF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblSearchTypeF.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSearchTypeF.Text" xml:space="preserve">
+    <value>Search Type</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeF.Name" xml:space="preserve">
+    <value>lblSearchTypeF</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeF.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="rdoRegexF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoRegexF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 71</value>
+  </data>
+  <data name="rdoRegexF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="rdoRegexF.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rdoRegexF.Text" xml:space="preserve">
+    <value>Regular &amp;Expression</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexF.Name" xml:space="preserve">
+    <value>rdoRegexF</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexF.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="rdoStandardF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoStandardF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 71</value>
+  </data>
+  <data name="rdoStandardF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="rdoStandardF.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoStandardF.Text" xml:space="preserve">
+    <value>&amp;Standard</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardF.Name" xml:space="preserve">
+    <value>rdoStandardF</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardF.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblFindF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFindF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 10</value>
+  </data>
+  <data name="lblFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFindF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFindF.Text" xml:space="preserve">
+    <value>&amp;Find</value>
+  </data>
+  <data name="&gt;&gt;lblFindF.Name" xml:space="preserve">
+    <value>lblFindF</value>
+  </data>
+  <data name="&gt;&gt;lblFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFindF.Parent" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;lblFindF.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tpgFind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpgFind.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpgFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 244</value>
+  </data>
+  <data name="tpgFind.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpgFind.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="&gt;&gt;tpgFind.Name" xml:space="preserve">
+    <value>tpgFind</value>
+  </data>
+  <data name="&gt;&gt;tpgFind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgFind.Parent" xml:space="preserve">
+    <value>tabAll</value>
+  </data>
+  <data name="&gt;&gt;tpgFind.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFindNextR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnFindNextR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 212</value>
+  </data>
+  <data name="btnFindNextR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnFindNextR.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnFindNextR.Text" xml:space="preserve">
+    <value>Find Next</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextR.Name" xml:space="preserve">
+    <value>btnFindNextR</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;btnFindNextR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFindPreviousR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnFindPreviousR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 188</value>
+  </data>
+  <data name="btnFindPreviousR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnFindPreviousR.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnFindPreviousR.Text" xml:space="preserve">
+    <value>Find Previous</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousR.Name" xml:space="preserve">
+    <value>btnFindPreviousR</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;btnFindPreviousR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtReplace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 28</value>
+  </data>
+  <data name="txtReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 21</value>
+  </data>
+  <data name="txtReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtReplace.Name" xml:space="preserve">
+    <value>txtReplace</value>
+  </data>
+  <data name="&gt;&gt;txtReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReplace.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;txtReplace.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtFindR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtFindR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 6</value>
+  </data>
+  <data name="txtFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 21</value>
+  </data>
+  <data name="txtFindR.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtFindR.Name" xml:space="preserve">
+    <value>txtFindR</value>
+  </data>
+  <data name="&gt;&gt;txtFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFindR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;txtFindR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 27</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExReplace.ToolTip" xml:space="preserve">
+    <value>Show a list of extended characters</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExReplace.Name" xml:space="preserve">
+    <value>cmdExtCharAndRegExReplace</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExReplace.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExReplace.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 5</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="cmdExtCharAndRegExFindR.ToolTip" xml:space="preserve">
+    <value>Show a list of extended characters</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindR.Name" xml:space="preserve">
+    <value>cmdExtCharAndRegExFindR</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;cmdExtCharAndRegExFindR.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rdoExtendedR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoExtendedR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 71</value>
+  </data>
+  <data name="rdoExtendedR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 17</value>
+  </data>
+  <data name="rdoExtendedR.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rdoExtendedR.Text" xml:space="preserve">
+    <value>E&amp;xtended (\n, \r, \t, \0)</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedR.Name" xml:space="preserve">
+    <value>rdoExtendedR</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;rdoExtendedR.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnReplaceAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 212</value>
+  </data>
+  <data name="btnReplaceAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnReplaceAll.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnReplaceAll.Text" xml:space="preserve">
+    <value>Replace &amp;All</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Name" xml:space="preserve">
+    <value>btnReplaceAll</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblReplace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 32</value>
+  </data>
+  <data name="lblReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblReplace.Text" xml:space="preserve">
+    <value>&amp;Replace</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.Name" xml:space="preserve">
+    <value>lblReplace</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkSearchSelectionR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSearchSelectionR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 71</value>
+  </data>
+  <data name="chkSearchSelectionR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="chkSearchSelectionR.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chkSearchSelectionR.Text" xml:space="preserve">
+    <value>Search Selection</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionR.Name" xml:space="preserve">
+    <value>chkSearchSelectionR</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;chkSearchSelectionR.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkWrapR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWrapR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 52</value>
+  </data>
+  <data name="chkWrapR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chkWrapR.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkWrapR.Text" xml:space="preserve">
+    <value>&amp;Wrap</value>
+  </data>
+  <data name="&gt;&gt;chkWrapR.Name" xml:space="preserve">
+    <value>chkWrapR</value>
+  </data>
+  <data name="&gt;&gt;chkWrapR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWrapR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;chkWrapR.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnReplacePrevious.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnReplacePrevious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 188</value>
+  </data>
+  <data name="btnReplacePrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnReplacePrevious.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnReplacePrevious.Text" xml:space="preserve">
+    <value>Replace &amp;Previous</value>
+  </data>
+  <data name="&gt;&gt;btnReplacePrevious.Name" xml:space="preserve">
+    <value>btnReplacePrevious</value>
+  </data>
+  <data name="&gt;&gt;btnReplacePrevious.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplacePrevious.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;btnReplacePrevious.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnReplaceNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnReplaceNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 212</value>
+  </data>
+  <data name="btnReplaceNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnReplaceNext.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnReplaceNext.Text" xml:space="preserve">
+    <value>Replace &amp;Next</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Name" xml:space="preserve">
+    <value>btnReplaceNext</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="grdOptionsR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="chkWordStartR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWordStartR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 37</value>
+  </data>
+  <data name="chkWordStartR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="chkWordStartR.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkWordStartR.Text" xml:space="preserve">
+    <value>W&amp;ord Start</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartR.Name" xml:space="preserve">
+    <value>chkWordStartR</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartR.Parent" xml:space="preserve">
+    <value>pnlStandardOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkWordStartR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkWholeWordR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWholeWordR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="chkWholeWordR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="chkWholeWordR.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkWholeWordR.Text" xml:space="preserve">
+    <value>Whole Wor&amp;d</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordR.Name" xml:space="preserve">
+    <value>chkWholeWordR</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordR.Parent" xml:space="preserve">
+    <value>pnlStandardOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkWholeWordR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkMatchCaseR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMatchCaseR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="chkMatchCaseR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="chkMatchCaseR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkMatchCaseR.Text" xml:space="preserve">
+    <value>Match &amp;Case</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseR.Name" xml:space="preserve">
+    <value>chkMatchCaseR</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseR.Parent" xml:space="preserve">
+    <value>pnlStandardOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCaseR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlStandardOptionsR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlStandardOptionsR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="pnlStandardOptionsR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 57</value>
+  </data>
+  <data name="pnlStandardOptionsR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsR.Name" xml:space="preserve">
+    <value>pnlStandardOptionsR</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsR.Parent" xml:space="preserve">
+    <value>grdOptionsR</value>
+  </data>
+  <data name="&gt;&gt;pnlStandardOptionsR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkSinglelineR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSinglelineR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 37</value>
+  </data>
+  <data name="chkSinglelineR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="chkSinglelineR.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkSinglelineR.Text" xml:space="preserve">
+    <value>Singleline</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineR.Name" xml:space="preserve">
+    <value>chkSinglelineR</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkSinglelineR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkRightToLeftR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkRightToLeftR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 20</value>
+  </data>
+  <data name="chkRightToLeftR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="chkRightToLeftR.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkRightToLeftR.Text" xml:space="preserve">
+    <value>Right To Left</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftR.Name" xml:space="preserve">
+    <value>chkRightToLeftR</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkRightToLeftR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkMultilineR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMultilineR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 3</value>
+  </data>
+  <data name="chkMultilineR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="chkMultilineR.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkMultilineR.Text" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineR.Name" xml:space="preserve">
+    <value>chkMultilineR</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkMultilineR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 37</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkIgnorePatternWhitespaceR.Text" xml:space="preserve">
+    <value>I&amp;gnore Pattern Whitespace</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceR.Name" xml:space="preserve">
+    <value>chkIgnorePatternWhitespaceR</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkIgnorePatternWhitespaceR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkIgnoreCaseR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkIgnoreCaseR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="chkIgnoreCaseR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="chkIgnoreCaseR.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkIgnoreCaseR.Text" xml:space="preserve">
+    <value>&amp;Ignore Case</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseR.Name" xml:space="preserve">
+    <value>chkIgnoreCaseR</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreCaseR.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkExplicitCaptureR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkExplicitCaptureR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 3</value>
+  </data>
+  <data name="chkExplicitCaptureR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="chkExplicitCaptureR.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkExplicitCaptureR.Text" xml:space="preserve">
+    <value>E&amp;xplicit Capture</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureR.Name" xml:space="preserve">
+    <value>chkExplicitCaptureR</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkExplicitCaptureR.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkEcmaScriptR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkEcmaScriptR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="chkEcmaScriptR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="chkEcmaScriptR.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkEcmaScriptR.Text" xml:space="preserve">
+    <value>ECMA Script</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptR.Name" xml:space="preserve">
+    <value>chkEcmaScriptR</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkEcmaScriptR.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkCultureInvariantR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCultureInvariantR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="chkCultureInvariantR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="chkCultureInvariantR.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkCultureInvariantR.Text" xml:space="preserve">
+    <value>C&amp;ulture Invariant</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantR.Name" xml:space="preserve">
+    <value>chkCultureInvariantR</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkCultureInvariantR.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkCompiledR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCompiledR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="chkCompiledR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="chkCompiledR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkCompiledR.Text" xml:space="preserve">
+    <value>&amp;Compiled</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledR.Name" xml:space="preserve">
+    <value>chkCompiledR</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledR.Parent" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;chkCompiledR.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pnlRegexpOptionsR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlRegexpOptionsR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="pnlRegexpOptionsR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 57</value>
+  </data>
+  <data name="pnlRegexpOptionsR.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsR.Name" xml:space="preserve">
+    <value>pnlRegexpOptionsR</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsR.Parent" xml:space="preserve">
+    <value>grdOptionsR</value>
+  </data>
+  <data name="&gt;&gt;pnlRegexpOptionsR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grdOptionsR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 94</value>
+  </data>
+  <data name="grdOptionsR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 77</value>
+  </data>
+  <data name="grdOptionsR.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="grdOptionsR.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;grdOptionsR.Name" xml:space="preserve">
+    <value>grdOptionsR</value>
+  </data>
+  <data name="&gt;&gt;grdOptionsR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grdOptionsR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;grdOptionsR.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblSearchTypeR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSearchTypeR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
+  </data>
+  <data name="lblSearchTypeR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblSearchTypeR.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblSearchTypeR.Text" xml:space="preserve">
+    <value>Search Type</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeR.Name" xml:space="preserve">
+    <value>lblSearchTypeR</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTypeR.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="rdoRegexR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoRegexR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 71</value>
+  </data>
+  <data name="rdoRegexR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="rdoRegexR.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rdoRegexR.Text" xml:space="preserve">
+    <value>Regular &amp;Expression</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexR.Name" xml:space="preserve">
+    <value>rdoRegexR</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;rdoRegexR.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="rdoStandardR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoStandardR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 71</value>
+  </data>
+  <data name="rdoStandardR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="rdoStandardR.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rdoStandardR.Text" xml:space="preserve">
+    <value>&amp;Standard</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardR.Name" xml:space="preserve">
+    <value>rdoStandardR</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;rdoStandardR.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblFindR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFindR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 10</value>
+  </data>
+  <data name="lblFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFindR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFindR.Text" xml:space="preserve">
+    <value>&amp;Find</value>
+  </data>
+  <data name="&gt;&gt;lblFindR.Name" xml:space="preserve">
+    <value>lblFindR</value>
+  </data>
+  <data name="&gt;&gt;lblFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFindR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;lblFindR.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cmdRecentReplace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdRecentReplace.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cmdRecentReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 27</value>
+  </data>
+  <data name="cmdRecentReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="cmdRecentReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cmdRecentReplace.ToolTip" xml:space="preserve">
+    <value>Show a list of recent search strings</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentReplace.Name" xml:space="preserve">
+    <value>cmdRecentReplace</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentReplace.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentReplace.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cmdRecentFindR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdRecentFindR.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cmdRecentFindR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 5</value>
+  </data>
+  <data name="cmdRecentFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="cmdRecentFindR.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="cmdRecentFindR.ToolTip" xml:space="preserve">
+    <value>Show a list of recent search strings</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindR.Name" xml:space="preserve">
+    <value>cmdRecentFindR</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindR.Parent" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;cmdRecentFindR.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tpgReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpgReplace.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpgReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 244</value>
+  </data>
+  <data name="tpgReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpgReplace.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="&gt;&gt;tpgReplace.Name" xml:space="preserve">
+    <value>tpgReplace</value>
+  </data>
+  <data name="&gt;&gt;tpgReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgReplace.Parent" xml:space="preserve">
+    <value>tabAll</value>
+  </data>
+  <data name="&gt;&gt;tpgReplace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabAll.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 270</value>
+  </data>
+  <data name="tabAll.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabAll.Name" xml:space="preserve">
+    <value>tabAll</value>
+  </data>
+  <data name="&gt;&gt;tabAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabAll.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 56</value>
+  </metadata>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 270</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 22</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>xxx</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="mnuExtendedCharFindF.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem13.Text" xml:space="preserve">
+    <value>\r\n Windows New Line</value>
+  </data>
+  <data name="nNewLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="nNewLineToolStripMenuItem.Text" xml:space="preserve">
+    <value>\n Line Feed</value>
+  </data>
+  <data name="rCarriageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="rCarriageToolStripMenuItem.Text" xml:space="preserve">
+    <value>\r Carriage Return</value>
+  </data>
+  <data name="tTabToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="tTabToolStripMenuItem1.Text" xml:space="preserve">
+    <value>\t Tab</value>
+  </data>
+  <data name="nullCharactorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="nullCharactorToolStripMenuItem.Text" xml:space="preserve">
+    <value>\0 Null Character</value>
+  </data>
+  <data name="mnuExtendedCharFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 114</value>
+  </data>
+  <data name="&gt;&gt;mnuExtendedCharFindF.Name" xml:space="preserve">
+    <value>mnuExtendedCharFindF</value>
+  </data>
+  <data name="&gt;&gt;mnuExtendedCharFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuRecentFindF.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>576, 17</value>
+  </metadata>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 6</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindF.Text" xml:space="preserve">
+    <value>&amp;Clear History</value>
+  </data>
+  <data name="mnuRecentFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 32</value>
+  </data>
+  <data name="&gt;&gt;mnuRecentFindF.Name" xml:space="preserve">
+    <value>mnuRecentFindF</value>
+  </data>
+  <data name="&gt;&gt;mnuRecentFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuExtendedCharFindR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>198, 17</value>
+  </metadata>
+  <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem14.Text" xml:space="preserve">
+    <value>\r\n Windows New Line</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>\n Line Feed</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>\r Carriage Return</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>\t Tab</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>\0 Null Character</value>
+  </data>
+  <data name="mnuExtendedCharFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 114</value>
+  </data>
+  <data name="&gt;&gt;mnuExtendedCharFindR.Name" xml:space="preserve">
+    <value>mnuExtendedCharFindR</value>
+  </data>
+  <data name="&gt;&gt;mnuExtendedCharFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuExtendedCharReplace.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 17</value>
+  </metadata>
+  <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem15.Text" xml:space="preserve">
+    <value>\r\n Windows New Line</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>\n Line Feed</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem6.Text" xml:space="preserve">
+    <value>\r Carriage Return</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem7.Text" xml:space="preserve">
+    <value>\t Tab</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="toolStripMenuItem8.Text" xml:space="preserve">
+    <value>\0 Null Character</value>
+  </data>
+  <data name="mnuExtendedCharReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 114</value>
+  </data>
+  <data name="&gt;&gt;mnuExtendedCharReplace.Name" xml:space="preserve">
+    <value>mnuExtendedCharReplace</value>
+  </data>
+  <data name="&gt;&gt;mnuExtendedCharReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuRecentFindR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>719, 17</value>
+  </metadata>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 6</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemFindR.Text" xml:space="preserve">
+    <value>&amp;Clear History</value>
+  </data>
+  <data name="mnuRecentFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 32</value>
+  </data>
+  <data name="&gt;&gt;mnuRecentFindR.Name" xml:space="preserve">
+    <value>mnuRecentFindR</value>
+  </data>
+  <data name="&gt;&gt;mnuRecentFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuRecentReplace.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>863, 17</value>
+  </metadata>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 6</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="clearHistoryToolStripMenuItemReplace.Text" xml:space="preserve">
+    <value>&amp;Clear History</value>
+  </data>
+  <data name="mnuRecentReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 32</value>
+  </data>
+  <data name="&gt;&gt;mnuRecentReplace.Name" xml:space="preserve">
+    <value>mnuRecentReplace</value>
+  </data>
+  <data name="&gt;&gt;mnuRecentReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuRegExCharFindF.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 56</value>
+  </metadata>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem9.Text" xml:space="preserve">
+    <value>. Any Character</value>
+  </data>
+  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem10.Text" xml:space="preserve">
+    <value>\w Alphanumeric (\W Non-Aplhat)</value>
+  </data>
+  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem11.Text" xml:space="preserve">
+    <value>\d Digit (\D Non-Digit)</value>
+  </data>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem12.Text" xml:space="preserve">
+    <value>\s Whitespace (\S Non-Whitespace)</value>
+  </data>
+  <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem16.Text" xml:space="preserve">
+    <value>[a-zA-Z] Specified Set ([^a...] Not in Set)</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem25.Text" xml:space="preserve">
+    <value>\r\n Windows New Line</value>
+  </data>
+  <data name="toolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem26.Text" xml:space="preserve">
+    <value>\n Line Feed</value>
+  </data>
+  <data name="toolStripMenuItem27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem27.Text" xml:space="preserve">
+    <value>\r Carriage Return</value>
+  </data>
+  <data name="toolStripMenuItem28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem28.Text" xml:space="preserve">
+    <value>\t Tab</value>
+  </data>
+  <data name="toolStripMenuItem29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem29.Text" xml:space="preserve">
+    <value>\0 Null Character</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem17.Text" xml:space="preserve">
+    <value>* Any Number of Repetitions</value>
+  </data>
+  <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem18.Text" xml:space="preserve">
+    <value>+ One or More Repetitions</value>
+  </data>
+  <data name="toolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem19.Text" xml:space="preserve">
+    <value>? Zero or More Repetitions</value>
+  </data>
+  <data name="toolStripMenuItem22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem22.Text" xml:space="preserve">
+    <value>? As Few as Possible (i.e. *?, +? or ??)</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem20.Text" xml:space="preserve">
+    <value>( ) Numbered Capture</value>
+  </data>
+  <data name="toolStripMenuItem21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem21.Text" xml:space="preserve">
+    <value>(?&lt;Name&gt;) Named Capture</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem23.Text" xml:space="preserve">
+    <value>^ Beginning of String or Line</value>
+  </data>
+  <data name="toolStripMenuItem24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem24.Text" xml:space="preserve">
+    <value>$ End of String or Line</value>
+  </data>
+  <data name="mnuRegExCharFindF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 424</value>
+  </data>
+  <data name="&gt;&gt;mnuRegExCharFindF.Name" xml:space="preserve">
+    <value>mnuRegExCharFindF</value>
+  </data>
+  <data name="&gt;&gt;mnuRegExCharFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuRegExCharFindR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>378, 56</value>
+  </metadata>
+  <data name="toolStripMenuItem30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem30.Text" xml:space="preserve">
+    <value>. Any Character</value>
+  </data>
+  <data name="toolStripMenuItem31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem31.Text" xml:space="preserve">
+    <value>\w Alphanumeric (\W Non-Aplhat)</value>
+  </data>
+  <data name="toolStripMenuItem32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem32.Text" xml:space="preserve">
+    <value>\d Digit (\D Non-Digit)</value>
+  </data>
+  <data name="toolStripMenuItem33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem33.Text" xml:space="preserve">
+    <value>\s Whitespace (\S Non-Whitespace)</value>
+  </data>
+  <data name="toolStripMenuItem34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem34.Text" xml:space="preserve">
+    <value>[a-zA-Z] Specified Set ([^a...] Not in Set)</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem35.Text" xml:space="preserve">
+    <value>\r\n Windows New Line</value>
+  </data>
+  <data name="toolStripMenuItem36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem36.Text" xml:space="preserve">
+    <value>\n Line Feed</value>
+  </data>
+  <data name="toolStripMenuItem37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem37.Text" xml:space="preserve">
+    <value>\r Carriage Return</value>
+  </data>
+  <data name="toolStripMenuItem38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem38.Text" xml:space="preserve">
+    <value>\t Tab</value>
+  </data>
+  <data name="toolStripMenuItem39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem39.Text" xml:space="preserve">
+    <value>\0 Null Character</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem40.Text" xml:space="preserve">
+    <value>* Any Number of Repetitions</value>
+  </data>
+  <data name="toolStripMenuItem41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem41.Text" xml:space="preserve">
+    <value>+ One or More Repetitions</value>
+  </data>
+  <data name="toolStripMenuItem42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem42.Text" xml:space="preserve">
+    <value>? Zero or More Repetitions</value>
+  </data>
+  <data name="toolStripMenuItem43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem43.Text" xml:space="preserve">
+    <value>? As Few as Possible (i.e. *?, +? or ??)</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem44.Text" xml:space="preserve">
+    <value>( ) Numbered Capture</value>
+  </data>
+  <data name="toolStripMenuItem45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem45.Text" xml:space="preserve">
+    <value>(?&lt;Name&gt;) Named Capture</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 6</value>
+  </data>
+  <data name="toolStripMenuItem46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem46.Text" xml:space="preserve">
+    <value>^ Beginning of String or Line</value>
+  </data>
+  <data name="toolStripMenuItem47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="toolStripMenuItem47.Text" xml:space="preserve">
+    <value>$ End of String or Line</value>
+  </data>
+  <data name="mnuRegExCharFindR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 424</value>
+  </data>
+  <data name="&gt;&gt;mnuRegExCharFindR.Name" xml:space="preserve">
+    <value>mnuRegExCharFindR</value>
+  </data>
+  <data name="&gt;&gt;mnuRegExCharFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="mnuRegExCharReplace.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 56</value>
+  </metadata>
+  <data name="toolStripMenuItem48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem48.Text" xml:space="preserve">
+    <value>$&amp;&amp; Entire Match</value>
+  </data>
+  <data name="toolStripMenuItem49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem49.Text" xml:space="preserve">
+    <value>$1 Numbered Group #1</value>
+  </data>
+  <data name="toolStripMenuItem57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem57.Text" xml:space="preserve">
+    <value>$2 Numbered Group #2</value>
+  </data>
+  <data name="toolStripMenuItem56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem56.Text" xml:space="preserve">
+    <value>$3 Numbered Group #3</value>
+  </data>
+  <data name="toolStripMenuItem55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem55.Text" xml:space="preserve">
+    <value>$4 Numbered Group #4</value>
+  </data>
+  <data name="toolStripMenuItem54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem54.Text" xml:space="preserve">
+    <value>$5 Numbered Group #5</value>
+  </data>
+  <data name="toolStripMenuItem53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem53.Text" xml:space="preserve">
+    <value>$6 Numbered Group #6</value>
+  </data>
+  <data name="toolStripMenuItem52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem52.Text" xml:space="preserve">
+    <value>$7 Numbered Group #7</value>
+  </data>
+  <data name="toolStripMenuItem51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem51.Text" xml:space="preserve">
+    <value>$8 Numbered Group #8</value>
+  </data>
+  <data name="toolStripMenuItem50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="toolStripMenuItem50.Text" xml:space="preserve">
+    <value>$9 Numbered Group #9</value>
+  </data>
+  <data name="nameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="nameToolStripMenuItem.Text" xml:space="preserve">
+    <value>$(Name) Named Group</value>
+  </data>
+  <data name="mnuRegExCharReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 246</value>
+  </data>
+  <data name="&gt;&gt;mnuRegExCharReplace.Name" xml:space="preserve">
+    <value>mnuRegExCharReplace</value>
+  </data>
+  <data name="&gt;&gt;mnuRegExCharReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>86</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>488, 292</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>504, 331</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Find and Replace</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem13.Name" xml:space="preserve">
+    <value>toolStripMenuItem13</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nNewLineToolStripMenuItem.Name" xml:space="preserve">
+    <value>nNewLineToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nNewLineToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rCarriageToolStripMenuItem.Name" xml:space="preserve">
+    <value>rCarriageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rCarriageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tTabToolStripMenuItem1.Name" xml:space="preserve">
+    <value>tTabToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;tTabToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nullCharactorToolStripMenuItem.Name" xml:space="preserve">
+    <value>nullCharactorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nullCharactorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem14.Name" xml:space="preserve">
+    <value>toolStripMenuItem14</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem15.Name" xml:space="preserve">
+    <value>toolStripMenuItem15</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
+    <value>toolStripMenuItem7</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
+    <value>toolStripMenuItem8</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Name" xml:space="preserve">
+    <value>toolStripMenuItem9</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem10.Name" xml:space="preserve">
+    <value>toolStripMenuItem10</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem11.Name" xml:space="preserve">
+    <value>toolStripMenuItem11</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem12.Name" xml:space="preserve">
+    <value>toolStripMenuItem12</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem16.Name" xml:space="preserve">
+    <value>toolStripMenuItem16</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem25.Name" xml:space="preserve">
+    <value>toolStripMenuItem25</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem26.Name" xml:space="preserve">
+    <value>toolStripMenuItem26</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem27.Name" xml:space="preserve">
+    <value>toolStripMenuItem27</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem28.Name" xml:space="preserve">
+    <value>toolStripMenuItem28</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem29.Name" xml:space="preserve">
+    <value>toolStripMenuItem29</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem17.Name" xml:space="preserve">
+    <value>toolStripMenuItem17</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem18.Name" xml:space="preserve">
+    <value>toolStripMenuItem18</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem19.Name" xml:space="preserve">
+    <value>toolStripMenuItem19</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem22.Name" xml:space="preserve">
+    <value>toolStripMenuItem22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem20.Name" xml:space="preserve">
+    <value>toolStripMenuItem20</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem21.Name" xml:space="preserve">
+    <value>toolStripMenuItem21</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem23.Name" xml:space="preserve">
+    <value>toolStripMenuItem23</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem24.Name" xml:space="preserve">
+    <value>toolStripMenuItem24</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem30.Name" xml:space="preserve">
+    <value>toolStripMenuItem30</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem31.Name" xml:space="preserve">
+    <value>toolStripMenuItem31</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem32.Name" xml:space="preserve">
+    <value>toolStripMenuItem32</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem33.Name" xml:space="preserve">
+    <value>toolStripMenuItem33</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem34.Name" xml:space="preserve">
+    <value>toolStripMenuItem34</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem35.Name" xml:space="preserve">
+    <value>toolStripMenuItem35</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem36.Name" xml:space="preserve">
+    <value>toolStripMenuItem36</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem37.Name" xml:space="preserve">
+    <value>toolStripMenuItem37</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem38.Name" xml:space="preserve">
+    <value>toolStripMenuItem38</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem39.Name" xml:space="preserve">
+    <value>toolStripMenuItem39</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem40.Name" xml:space="preserve">
+    <value>toolStripMenuItem40</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem41.Name" xml:space="preserve">
+    <value>toolStripMenuItem41</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem42.Name" xml:space="preserve">
+    <value>toolStripMenuItem42</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem43.Name" xml:space="preserve">
+    <value>toolStripMenuItem43</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem44.Name" xml:space="preserve">
+    <value>toolStripMenuItem44</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem45.Name" xml:space="preserve">
+    <value>toolStripMenuItem45</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem46.Name" xml:space="preserve">
+    <value>toolStripMenuItem46</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem47.Name" xml:space="preserve">
+    <value>toolStripMenuItem47</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem48.Name" xml:space="preserve">
+    <value>toolStripMenuItem48</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem49.Name" xml:space="preserve">
+    <value>toolStripMenuItem49</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem57.Name" xml:space="preserve">
+    <value>toolStripMenuItem57</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem56.Name" xml:space="preserve">
+    <value>toolStripMenuItem56</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem56.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem55.Name" xml:space="preserve">
+    <value>toolStripMenuItem55</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem54.Name" xml:space="preserve">
+    <value>toolStripMenuItem54</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem53.Name" xml:space="preserve">
+    <value>toolStripMenuItem53</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem52.Name" xml:space="preserve">
+    <value>toolStripMenuItem52</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem51.Name" xml:space="preserve">
+    <value>toolStripMenuItem51</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem50.Name" xml:space="preserve">
+    <value>toolStripMenuItem50</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nameToolStripMenuItem.Name" xml:space="preserve">
+    <value>nameToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nameToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearHistoryToolStripMenuItemFindF.Name" xml:space="preserve">
+    <value>clearHistoryToolStripMenuItemFindF</value>
+  </data>
+  <data name="&gt;&gt;clearHistoryToolStripMenuItemFindF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearHistoryToolStripMenuItemFindR.Name" xml:space="preserve">
+    <value>clearHistoryToolStripMenuItemFindR</value>
+  </data>
+  <data name="&gt;&gt;clearHistoryToolStripMenuItemFindR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearHistoryToolStripMenuItemReplace.Name" xml:space="preserve">
+    <value>clearHistoryToolStripMenuItemReplace</value>
+  </data>
+  <data name="&gt;&gt;clearHistoryToolStripMenuItemReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FindReplaceDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
