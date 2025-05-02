@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <ProjectGuid>{7FA22A4B-FB50-4D65-B79F-F3EEDB413C41}</ProjectGuid>
     <RootNamespace>ScintillaNET_FindReplaceDialog</RootNamespace>
     <TargetFrameworks>netcoreapp3.1;net6.0-windows;net45</TargetFrameworks>
     <AssemblyTitle>ScintillaNet FindReplaceDialog</AssemblyTitle>
